@@ -4,18 +4,10 @@ const { ccclass } = _decorator;
 
 @ccclass('AnalyticsManager')
 export class AnalyticsManager extends Component {
-    // ─────────────────────────────────────────────────────────────
-    // State
-    // ─────────────────────────────────────────────────────────────
+    private static isGameEndFired = false;
+    private static isChallengeStartedFired = false;
 
-    private static isGameEndFired: boolean = false;
-    private static isChallengeStartedFired: boolean = false;
-
-    // ─────────────────────────────────────────────────────────────
-    // Events
-    // ─────────────────────────────────────────────────────────────
-
-    public static trackEvent(eventName: string) {
+    public static trackEvent(eventName: string): void {
         if (typeof window !== 'undefined' && typeof window['ALPlayableAnalytics'] !== 'undefined') {
             window['ALPlayableAnalytics'].trackEvent(eventName);
             console.log(`[Analytics] Event sent: ${eventName}`);
@@ -24,7 +16,7 @@ export class AnalyticsManager extends Component {
         }
     }
 
-    public static fireGameEnd() {
+    public static fireGameEnd(): void {
         if (this.isGameEndFired) return;
 
         if (typeof window !== 'undefined' && typeof window['gameEnd'] === 'function') {
@@ -34,7 +26,7 @@ export class AnalyticsManager extends Component {
         }
     }
 
-    public static fireChallengeStarted() {
+    public static fireChallengeStarted(): void {
         if (this.isChallengeStartedFired) return;
 
         this.isChallengeStartedFired = true;
