@@ -1,0 +1,115 @@
+Project_019.png
+	size: 107, 867
+	filter: Linear, Linear
+	pma: true
+	scale: 0.62125
+1_dr_girl_arm_l
+	bounds: 63, 67, 39, 39
+1_dr_girl_arm_l2
+	bounds: 2, 133, 61, 47
+	offsets: 1, 0, 63, 47
+	rotate: 180
+1_dr_girl_arm_r
+	bounds: 2, 75, 39, 39
+1_dr_girl_arm_r2
+	bounds: 40, 101, 62, 47
+	offsets: 1, 0, 63, 47
+1_dr_girl_eyebrow_s1
+	bounds: 84, 726, 19, 12
+	offsets: 0, 1, 20, 13
+1_dr_girl_eyebrow_s2
+	bounds: 85, 275, 17, 13
+	offsets: 1, 0, 19, 14
+1_dr_girl_eyewhite_s1
+	bounds: 83, 12, 15, 13
+1_dr_girl_eyewhite_s2
+	bounds: 90, 203, 14, 12
+1_dr_girl_foot_l
+	bounds: 2, 39, 28, 68
+	offsets: 1, 0, 30, 69
+	rotate: 270
+1_dr_girl_foot_r
+	bounds: 76, 605, 29, 69
+	offsets: 1, 0, 30, 69
+	rotate: 180
+1_dr_girl_hair
+	bounds: 2, 605, 75, 112
+1_dr_girl_hair_back_b
+	bounds: 2, 481, 63, 83
+	offsets: 1, 0, 65, 83
+	rotate: 270
+1_dr_girl_hair_l_b
+	bounds: 2, 2, 29, 73
+	rotate: 270
+1_dr_girl_hair_r_b
+	bounds: 63, 144, 22, 41
+	offsets: 0, 0, 22, 43
+	rotate: 90
+1_dr_girl_happy_eyebrow1
+	bounds: 84, 168, 18, 10
+1_dr_girl_happy_eyebrow2
+	bounds: 86, 367, 18, 9
+1_dr_girl_happy_head
+	bounds: 32, 238, 50, 63
+	rotate: 270
+1_dr_girl_happy_iris1
+	bounds: 83, 2, 8, 8
+1_dr_girl_happy_iris2
+	bounds: 83, 2, 8, 8
+1_dr_girl_happy_lips
+	bounds: 80, 232, 22, 12
+	offsets: 1, 2, 24, 15
+1_dr_girl_head_s
+	bounds: 2, 283, 50, 63
+	rotate: 270
+1_dr_girl_hip_l
+	bounds: 2, 440, 44, 100
+	offsets: 1, 0, 45, 101
+	rotate: 270
+1_dr_girl_hip_r
+	bounds: 2, 399, 44, 101
+	offsets: 1, 0, 46, 101
+	rotate: 90
+1_dr_girl_iris1
+	bounds: 91, 180, 8, 9
+1_dr_girl_iris2
+	bounds: 52, 2, 8, 9
+1_dr_girl_leg_l
+	bounds: 2, 208, 31, 89
+	offsets: 1, 0, 32, 89
+	rotate: 90
+1_dr_girl_leg_r
+	bounds: 2, 178, 31, 89
+	offsets: 0, 0, 32, 90
+	rotate: 270
+1_dr_girl_lips_s
+	bounds: 83, 352, 19, 13
+	offsets: 1, 1, 21, 15
+1_dr_girl_palm_l
+	bounds: 72, 27, 32, 38
+1_dr_girl_palm_l2
+	bounds: 80, 484, 24, 57
+1_dr_girl_palm_r
+	bounds: 67, 290, 32, 38
+	rotate: 90
+1_dr_girl_palm_r2
+	bounds: 80, 672, 23, 57
+	offsets: 1, 0, 24, 57
+1_dr_girl_pelvis
+	bounds: 2, 544, 86, 63
+	offsets: 1, 0, 88, 63
+1_dr_girl_shoulder_l
+	bounds: 8, 324, 41, 92
+	offsets: 1, 0, 43, 93
+	rotate: 90
+1_dr_girl_shoulder_r
+	bounds: 6, 367, 41, 92
+	offsets: 1, 0, 42, 93
+	rotate: 90
+1_dr_girl_torso
+	bounds: 2, 715, 89, 150
+2_dr_girl_arm_b
+	bounds: 62, 3, 19, 15
+eye_close2
+	bounds: 85, 541, 16, 12
+	offsets: 3, 2, 21, 17

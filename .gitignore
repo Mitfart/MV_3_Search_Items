@@ -1,0 +1,10 @@
+library/
+temp/
+build/
+local/
+profiles/v2/packages/*
+.creator/
+.pi-media-tools/
+.DS_Store
+*.log
+node_modules/

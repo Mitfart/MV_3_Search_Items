@@ -1,0 +1,5110 @@
+{
+  "generatedAt": "2026-06-04T17:25:08.039Z",
+  "sourcePsd": "_ASSETS_/Вертикаль_финал.psd",
+  "manifest": "_ASSETS_/portrait-export/manifest.json",
+  "spriteRoot": "_ASSETS_/portrait-export/sprites",
+  "psdSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "coordinateSpace": "portrait PSD art space, unscaled",
+  "coordinateFormula": "x=(left+right)/2 - psdWidth/2; y=psdHeight/2 - (top+bottom)/2; z=0",
+  "layerCount": 180,
+  "spriteCount": 159,
+  "layers": [
+    {
+      "id": 1,
+      "type": "layer",
+      "path": "Фон",
+      "name": "Фон",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1080,
+        "bottom": 1920,
+        "width": 1080,
+        "height": 1920
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/background/0001__фон.png",
+        "category": "background",
+        "width": 1080,
+        "height": 1920,
+        "hash": "1e22727e59f259b51a63d3ce85aec513327fb45497871e452a2c6f21572dd95a"
+      }
+    },
+    {
+      "id": 2,
+      "type": "layer",
+      "path": "background",
+      "name": "background",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -337,
+        "top": -39,
+        "right": 1380,
+        "bottom": 1954,
+        "width": 1717,
+        "height": 1993
+      },
+      "position": {
+        "x": -18.5,
+        "y": 2.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/background/0002__background.png",
+        "category": "background",
+        "width": 1717,
+        "height": 1993,
+        "hash": "31a4a0dbb121e180d3364f370b8d4f6d09a3a90db843c225eb147c2720ca772a"
+      }
+    },
+    {
+      "id": 3,
+      "type": "layer",
+      "path": "flashlight",
+      "name": "flashlight",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 385,
+        "top": 952,
+        "right": 478,
+        "bottom": 992,
+        "width": 93,
+        "height": 40
+      },
+      "position": {
+        "x": -108.5,
+        "y": -12,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0003__flashlight.png",
+        "category": "props",
+        "width": 93,
+        "height": 40,
+        "hash": "8050121ac62f5d2da5278e47ea485991296e823b35f2fbb0f112e0bdd96a8fc1"
+      }
+    },
+    {
+      "id": 4,
+      "type": "layer",
+      "path": "paper",
+      "name": "paper",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 575,
+        "top": 976,
+        "right": 688,
+        "bottom": 1070,
+        "width": 113,
+        "height": 94
+      },
+      "position": {
+        "x": 91.5,
+        "y": -63,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0004__paper.png",
+        "category": "props",
+        "width": 113,
+        "height": 94,
+        "hash": "a702bcdb1bd9297879a92d573cd7d1ee9f1622bf893463a67603a3a6332adac2"
+      }
+    },
+    {
+      "id": 5,
+      "type": "layer",
+      "path": "hose_1",
+      "name": "hose_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 91,
+        "top": 1351,
+        "right": 240,
+        "bottom": 1502,
+        "width": 149,
+        "height": 151
+      },
+      "position": {
+        "x": -374.5,
+        "y": -466.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0005__hose_1.png",
+        "category": "props",
+        "width": 149,
+        "height": 151,
+        "hash": "fd6d2a50dd8f1752cc07282360cac9ea8870e4135441516fb66550a35ff6629c"
+      }
+    },
+    {
+      "id": 6,
+      "type": "layer",
+      "path": "hose_2",
+      "name": "hose_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 110,
+        "top": 1310,
+        "right": 372,
+        "bottom": 1464,
+        "width": 262,
+        "height": 154
+      },
+      "position": {
+        "x": -299,
+        "y": -427,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0006__hose_2.png",
+        "category": "props",
+        "width": 262,
+        "height": 154,
+        "hash": "7ac5eba409bfa03a425200baf2d490b714c72efebae1f21a9346a898fd8f992a"
+      }
+    },
+    {
+      "id": 7,
+      "type": "layer",
+      "path": "suitcase_1",
+      "name": "suitcase_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 645,
+        "top": 1290,
+        "right": 1014,
+        "bottom": 1641,
+        "width": 369,
+        "height": 351
+      },
+      "position": {
+        "x": 289.5,
+        "y": -505.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0007__suitcase_1.png",
+        "category": "ui",
+        "width": 369,
+        "height": 351,
+        "hash": "d6db99fb1fb6e758971ad9bcbd0723de75e60108521b225040e2a24e92553bc2"
+      }
+    },
+    {
+      "id": 8,
+      "type": "layer",
+      "path": "suitcase_2",
+      "name": "suitcase_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 724,
+        "top": 1405,
+        "right": 774,
+        "bottom": 1479,
+        "width": 50,
+        "height": 74
+      },
+      "position": {
+        "x": 209,
+        "y": -482,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0008__suitcase_2.png",
+        "category": "ui",
+        "width": 50,
+        "height": 74,
+        "hash": "4e25c454434ed0ce2d52728c558f8f46d6ce94ae7cca28be5b950b4b0c5d5654"
+      }
+    },
+    {
+      "id": 9,
+      "type": "layer",
+      "path": "box",
+      "name": "box",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 784,
+        "top": 1540,
+        "right": 1132,
+        "bottom": 1882,
+        "width": 348,
+        "height": 342
+      },
+      "position": {
+        "x": 418,
+        "y": -751,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0009__box.png",
+        "category": "props",
+        "width": 348,
+        "height": 342,
+        "hash": "8e5c856a15462681f64ea7d4e21026b89cbee74a181cfb62aa9c1e730fc92ee8"
+      }
+    },
+    {
+      "id": 10,
+      "type": "layer",
+      "path": "tire_1",
+      "name": "tire_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 187,
+        "top": 1559,
+        "right": 520,
+        "bottom": 1812,
+        "width": 333,
+        "height": 253
+      },
+      "position": {
+        "x": -186.5,
+        "y": -725.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0010__tire_1.png",
+        "category": "props",
+        "width": 333,
+        "height": 253,
+        "hash": "4e4254f46a2fb22183b81f8e6863572bd10b2276d53ddda6374a0bcda7fcb651"
+      }
+    },
+    {
+      "id": 11,
+      "type": "layer",
+      "path": "tire_2",
+      "name": "tire_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 45,
+        "top": 1528,
+        "right": 353,
+        "bottom": 1812,
+        "width": 308,
+        "height": 284
+      },
+      "position": {
+        "x": -341,
+        "y": -710,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0011__tire_2.png",
+        "category": "props",
+        "width": 308,
+        "height": 284,
+        "hash": "fc9d595a72d65b6c2044def073649a1f67a6c23482f0e7bd61837f397f52cc68"
+      }
+    },
+    {
+      "id": 12,
+      "type": "layer",
+      "path": "door_closed",
+      "name": "door_closed",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 311,
+        "top": 256,
+        "right": 763,
+        "bottom": 799,
+        "width": 452,
+        "height": 543
+      },
+      "position": {
+        "x": -3,
+        "y": 432.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/door/0012__door_closed.png",
+        "category": "door",
+        "width": 452,
+        "height": 543,
+        "hash": "abd4cc15885193e6509f86c763ff05fefa0d3317c221fbf92d31a40e03f7a0bf"
+      }
+    },
+    {
+      "id": 13,
+      "type": "group",
+      "path": "chains",
+      "name": "chains",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 14,
+      "type": "layer",
+      "path": "chains/chain_8",
+      "name": "chain_8",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 400,
+        "top": 608,
+        "right": 659,
+        "bottom": 745,
+        "width": 259,
+        "height": 137
+      },
+      "position": {
+        "x": -10.5,
+        "y": 283.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0014__chains__chain_8.png",
+        "category": "chains",
+        "width": 259,
+        "height": 137,
+        "hash": "7a3c03de1ae280ef8fd114fb333c6b024a21861a642dabc054c1d36a1a42fbec"
+      }
+    },
+    {
+      "id": 15,
+      "type": "layer",
+      "path": "chains/chain_7",
+      "name": "chain_7",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 397,
+        "top": 637,
+        "right": 663,
+        "bottom": 721,
+        "width": 266,
+        "height": 84
+      },
+      "position": {
+        "x": -10,
+        "y": 281,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0015__chains__chain_7.png",
+        "category": "chains",
+        "width": 266,
+        "height": 84,
+        "hash": "15f666f9210e3ac270bf7b52f3bfae271302a276f0d9c8e23859d7f436db536e"
+      }
+    },
+    {
+      "id": 16,
+      "type": "layer",
+      "path": "chains/chain_6",
+      "name": "chain_6",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 400,
+        "top": 510,
+        "right": 659,
+        "bottom": 647,
+        "width": 259,
+        "height": 137
+      },
+      "position": {
+        "x": -10.5,
+        "y": 381.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0016__chains__chain_6.png",
+        "category": "chains",
+        "width": 259,
+        "height": 137,
+        "hash": "7a3c03de1ae280ef8fd114fb333c6b024a21861a642dabc054c1d36a1a42fbec"
+      }
+    },
+    {
+      "id": 17,
+      "type": "layer",
+      "path": "chains/chain_5",
+      "name": "chain_5",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 397,
+        "top": 541,
+        "right": 663,
+        "bottom": 625,
+        "width": 266,
+        "height": 84
+      },
+      "position": {
+        "x": -10,
+        "y": 377,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0017__chains__chain_5.png",
+        "category": "chains",
+        "width": 266,
+        "height": 84,
+        "hash": "15f666f9210e3ac270bf7b52f3bfae271302a276f0d9c8e23859d7f436db536e"
+      }
+    },
+    {
+      "id": 18,
+      "type": "layer",
+      "path": "chains/chain_4",
+      "name": "chain_4",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 400,
+        "top": 415,
+        "right": 659,
+        "bottom": 552,
+        "width": 259,
+        "height": 137
+      },
+      "position": {
+        "x": -10.5,
+        "y": 476.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0018__chains__chain_4.png",
+        "category": "chains",
+        "width": 259,
+        "height": 137,
+        "hash": "7a3c03de1ae280ef8fd114fb333c6b024a21861a642dabc054c1d36a1a42fbec"
+      }
+    },
+    {
+      "id": 19,
+      "type": "layer",
+      "path": "chains/chain_3",
+      "name": "chain_3",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 397,
+        "top": 446,
+        "right": 663,
+        "bottom": 529,
+        "width": 266,
+        "height": 83
+      },
+      "position": {
+        "x": -10,
+        "y": 472.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0019__chains__chain_3.png",
+        "category": "chains",
+        "width": 266,
+        "height": 83,
+        "hash": "b4b4440f7512f244cb67365aa47c56bf6980cbe6fdbd2dbe1209406cd0e99bd5"
+      }
+    },
+    {
+      "id": 20,
+      "type": "layer",
+      "path": "chains/chaoin_2",
+      "name": "chaoin_2",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 397,
+        "top": 346,
+        "right": 663,
+        "bottom": 427,
+        "width": 266,
+        "height": 81
+      },
+      "position": {
+        "x": -10,
+        "y": 573.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0020__chains__chaoin_2.png",
+        "category": "chains",
+        "width": 266,
+        "height": 81,
+        "hash": "1eea50a0643230aabbcf22b05f3d1f9ebd5d0d966ba5bdffa52fa485e522fdfb"
+      }
+    },
+    {
+      "id": 21,
+      "type": "layer",
+      "path": "chains/chain_1",
+      "name": "chain_1",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 400,
+        "top": 324,
+        "right": 659,
+        "bottom": 461,
+        "width": 259,
+        "height": 137
+      },
+      "position": {
+        "x": -10.5,
+        "y": 567.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/chains/0021__chains__chain_1.png",
+        "category": "chains",
+        "width": 259,
+        "height": 137,
+        "hash": "7a3c03de1ae280ef8fd114fb333c6b024a21861a642dabc054c1d36a1a42fbec"
+      }
+    },
+    {
+      "id": 22,
+      "type": "layer",
+      "path": "magnifier",
+      "name": "magnifier",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -58,
+        "top": 1401,
+        "right": 91,
+        "bottom": 1490,
+        "width": 149,
+        "height": 89
+      },
+      "position": {
+        "x": -523.5,
+        "y": -485.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0022__magnifier.png",
+        "category": "props",
+        "width": 149,
+        "height": 89,
+        "hash": "be97c999685ffed7fe0b677e26706a8abdbb0d96f33312fc46914d91d312edf9"
+      }
+    },
+    {
+      "id": 23,
+      "type": "layer",
+      "path": "gloves",
+      "name": "gloves",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -88,
+        "top": 1453,
+        "right": 63,
+        "bottom": 1556,
+        "width": 151,
+        "height": 103
+      },
+      "position": {
+        "x": -552.5,
+        "y": -544.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0023__gloves.png",
+        "category": "props",
+        "width": 151,
+        "height": 103,
+        "hash": "a5cd146f277d3d57f97f05d6fa27b4cf9410ea730831a2b4e572211578256123"
+      }
+    },
+    {
+      "id": 24,
+      "type": "group",
+      "path": "locks",
+      "name": "locks",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 25,
+      "type": "group",
+      "path": "locks/lock1",
+      "name": "lock1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 26,
+      "type": "layer",
+      "path": "locks/lock1/lock_sh",
+      "name": "lock_sh",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 400,
+        "top": 345,
+        "right": 448,
+        "bottom": 415,
+        "width": 48,
+        "height": 70
+      },
+      "position": {
+        "x": -116,
+        "y": 580,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0026__locks__lock1__lock_sh.png",
+        "category": "locks",
+        "width": 48,
+        "height": 70,
+        "hash": "c7b3ad6d1be791783880ad59df56af5941b8964b939a67486f73717753a0e373"
+      }
+    },
+    {
+      "id": 27,
+      "type": "layer",
+      "path": "locks/lock1/lock",
+      "name": "lock",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 402,
+        "top": 346,
+        "right": 460,
+        "bottom": 406,
+        "width": 58,
+        "height": 60
+      },
+      "position": {
+        "x": -109,
+        "y": 584,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0027__locks__lock1__lock.png",
+        "category": "locks",
+        "width": 58,
+        "height": 60,
+        "hash": "7c4c5f908e01d6cdd9d8a1d9b74bedc4df26c7f227751725cf2e427f0a72b51c"
+      }
+    },
+    {
+      "id": 28,
+      "type": "group",
+      "path": "locks/lock2",
+      "name": "lock2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 29,
+      "type": "layer",
+      "path": "locks/lock2/lock_sh",
+      "name": "lock_sh",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 400,
+        "top": 437,
+        "right": 448,
+        "bottom": 508,
+        "width": 48,
+        "height": 71
+      },
+      "position": {
+        "x": -116,
+        "y": 487.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0029__locks__lock2__lock_sh.png",
+        "category": "locks",
+        "width": 48,
+        "height": 71,
+        "hash": "869e6cd19a7a3b079816d87ce0936a216211e06cc3febd9c4c79570733708eb7"
+      }
+    },
+    {
+      "id": 30,
+      "type": "layer",
+      "path": "locks/lock2/lock",
+      "name": "lock",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 402,
+        "top": 438,
+        "right": 460,
+        "bottom": 498,
+        "width": 58,
+        "height": 60
+      },
+      "position": {
+        "x": -109,
+        "y": 492,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0030__locks__lock2__lock.png",
+        "category": "locks",
+        "width": 58,
+        "height": 60,
+        "hash": "1737229ed1e5424305442181425e12e4de1acdf39081f1c2d6d9861ed32899a7"
+      }
+    },
+    {
+      "id": 31,
+      "type": "group",
+      "path": "locks/lock3",
+      "name": "lock3",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 32,
+      "type": "layer",
+      "path": "locks/lock3/lock_sh",
+      "name": "lock_sh",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 400,
+        "top": 533,
+        "right": 448,
+        "bottom": 607,
+        "width": 48,
+        "height": 74
+      },
+      "position": {
+        "x": -116,
+        "y": 390,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0032__locks__lock3__lock_sh.png",
+        "category": "locks",
+        "width": 48,
+        "height": 74,
+        "hash": "40196060e72c95f2b38412b4a8c036754c06379513b4161066bda2333aa59f67"
+      }
+    },
+    {
+      "id": 33,
+      "type": "layer",
+      "path": "locks/lock3/lock",
+      "name": "lock",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 402,
+        "top": 534,
+        "right": 460,
+        "bottom": 595,
+        "width": 58,
+        "height": 61
+      },
+      "position": {
+        "x": -109,
+        "y": 395.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0033__locks__lock3__lock.png",
+        "category": "locks",
+        "width": 58,
+        "height": 61,
+        "hash": "9b583d8f0ec1ec72a95dfd6599b0dcbb95ec7806fd80fef74adc508906ffc22f"
+      }
+    },
+    {
+      "id": 34,
+      "type": "group",
+      "path": "locks/lock3 копия",
+      "name": "lock3 копия",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 35,
+      "type": "layer",
+      "path": "locks/lock3 копия/lock_sh",
+      "name": "lock_sh",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 400,
+        "top": 625,
+        "right": 448,
+        "bottom": 699,
+        "width": 48,
+        "height": 74
+      },
+      "position": {
+        "x": -116,
+        "y": 298,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0035__locks__lock3_копия__lock_sh.png",
+        "category": "locks",
+        "width": 48,
+        "height": 74,
+        "hash": "a8736097f5ca560c5074b7182550f770b9f05c6bee7efc0378a56149ba0f74f6"
+      }
+    },
+    {
+      "id": 36,
+      "type": "layer",
+      "path": "locks/lock3 копия/lock",
+      "name": "lock",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 402,
+        "top": 626,
+        "right": 460,
+        "bottom": 687,
+        "width": 58,
+        "height": 61
+      },
+      "position": {
+        "x": -109,
+        "y": 303.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0036__locks__lock3_копия__lock.png",
+        "category": "locks",
+        "width": 58,
+        "height": 61,
+        "hash": "641da5482e208b3436d8db238d5ca19656c63f32746b5a8e704dc5fa97a61092"
+      }
+    },
+    {
+      "id": 37,
+      "type": "group",
+      "path": "locks/lock3 копия 2",
+      "name": "lock3 копия 2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 38,
+      "type": "layer",
+      "path": "locks/lock3 копия 2/lock_sh",
+      "name": "lock_sh",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 400,
+        "top": 713,
+        "right": 448,
+        "bottom": 787,
+        "width": 48,
+        "height": 74
+      },
+      "position": {
+        "x": -116,
+        "y": 210,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0038__locks__lock3_копия_2__lock_sh.png",
+        "category": "locks",
+        "width": 48,
+        "height": 74,
+        "hash": "79e2efe4e61fb6ff71431c9e39f223780e47683a79e4b5f99dc8c0a9029ed947"
+      }
+    },
+    {
+      "id": 39,
+      "type": "layer",
+      "path": "locks/lock3 копия 2/lock",
+      "name": "lock",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 402,
+        "top": 714,
+        "right": 460,
+        "bottom": 775,
+        "width": 58,
+        "height": 61
+      },
+      "position": {
+        "x": -109,
+        "y": 215.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/locks/0039__locks__lock3_копия_2__lock.png",
+        "category": "locks",
+        "width": 58,
+        "height": 61,
+        "hash": "3ebbe9be589a34d4984abefeec06ada1b9e951376c0a4b157283a4e0c3cb5b3c"
+      }
+    },
+    {
+      "id": 40,
+      "type": "layer",
+      "path": "tube_1",
+      "name": "tube_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 38,
+        "top": 105,
+        "right": 1069,
+        "bottom": 207,
+        "width": 1031,
+        "height": 102
+      },
+      "position": {
+        "x": 13.5,
+        "y": 804,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0040__tube_1.png",
+        "category": "props",
+        "width": 1031,
+        "height": 102,
+        "hash": "c1e57da3f814a30bd4f7164b71977df473be77a3880e1871f0edd3c0106ef8c8"
+      }
+    },
+    {
+      "id": 41,
+      "type": "group",
+      "path": "keys",
+      "name": "keys",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 42,
+      "type": "layer",
+      "path": "keys/key_4",
+      "name": "key_4",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 21,
+        "top": 1268,
+        "right": 92,
+        "bottom": 1308,
+        "width": 71,
+        "height": 40
+      },
+      "position": {
+        "x": -483.5,
+        "y": -328,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0042__keys__key_4.png",
+        "category": "keys",
+        "width": 71,
+        "height": 40,
+        "hash": "50b53673eb0d3a9a540546835929897b3aeb74a4902e67fcde3b798c049c71fd"
+      }
+    },
+    {
+      "id": 43,
+      "type": "layer",
+      "path": "keys/key_3",
+      "name": "key_3",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 873,
+        "top": 620,
+        "right": 937,
+        "bottom": 702,
+        "width": 64,
+        "height": 82
+      },
+      "position": {
+        "x": 365,
+        "y": 299,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0043__keys__key_3.png",
+        "category": "keys",
+        "width": 64,
+        "height": 82,
+        "hash": "4c12184f17f3a85b32c9ea5902faca5e0960e27ef0d7171540c3c87a9c7dea74"
+      }
+    },
+    {
+      "id": 44,
+      "type": "layer",
+      "path": "keys/m_box",
+      "name": "m_box",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 846,
+        "top": 680,
+        "right": 915,
+        "bottom": 728,
+        "width": 69,
+        "height": 48
+      },
+      "position": {
+        "x": 340.5,
+        "y": 256,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0044__keys__m_box.png",
+        "category": "keys",
+        "width": 69,
+        "height": 48,
+        "hash": "0e4b4b9f17b60075d0877fc9f7d785d5801bfc79ebe29e1583bad24d44859845"
+      }
+    },
+    {
+      "id": 45,
+      "type": "layer",
+      "path": "keys/key_2",
+      "name": "key_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -38,
+        "top": 1471,
+        "right": 81,
+        "bottom": 1532,
+        "width": 119,
+        "height": 61
+      },
+      "position": {
+        "x": -518.5,
+        "y": -541.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0045__keys__key_2.png",
+        "category": "keys",
+        "width": 119,
+        "height": 61,
+        "hash": "f08f5636202bebcbeba6f22e8d6f7685c5c919b25f5d7da3c94d468039dafe00"
+      }
+    },
+    {
+      "id": 46,
+      "type": "layer",
+      "path": "keys/key_5_light",
+      "name": "key_5_light",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 126,
+        "top": 659,
+        "right": 167,
+        "bottom": 784,
+        "width": 41,
+        "height": 125
+      },
+      "position": {
+        "x": -393.5,
+        "y": 238.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0046__keys__key_5_light.png",
+        "category": "keys",
+        "width": 41,
+        "height": 125,
+        "hash": "cc70b211d72a45bc40672a5db85e8fa0019e42334bdef9eb0cf261b5787a1a0c"
+      }
+    },
+    {
+      "id": 47,
+      "type": "layer",
+      "path": "keys/key_5",
+      "name": "key_5",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 126,
+        "top": 659,
+        "right": 167,
+        "bottom": 784,
+        "width": 41,
+        "height": 125
+      },
+      "position": {
+        "x": -393.5,
+        "y": 238.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0047__keys__key_5.png",
+        "category": "keys",
+        "width": 41,
+        "height": 125,
+        "hash": "cc70b211d72a45bc40672a5db85e8fa0019e42334bdef9eb0cf261b5787a1a0c"
+      }
+    },
+    {
+      "id": 48,
+      "type": "layer",
+      "path": "keys/hook",
+      "name": "hook",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 141,
+        "top": 647,
+        "right": 158,
+        "bottom": 672,
+        "width": 17,
+        "height": 25
+      },
+      "position": {
+        "x": -390.5,
+        "y": 300.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0048__keys__hook.png",
+        "category": "keys",
+        "width": 17,
+        "height": 25,
+        "hash": "56385c2519fcf9aa30301d36bfebcd599288793fc185c66174894f324fccab0c"
+      }
+    },
+    {
+      "id": 49,
+      "type": "layer",
+      "path": "keys/key_1",
+      "name": "key_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 921,
+        "top": 1285,
+        "right": 1012,
+        "bottom": 1331,
+        "width": 91,
+        "height": 46
+      },
+      "position": {
+        "x": 426.5,
+        "y": -348,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/keys/0049__keys__key_1.png",
+        "category": "keys",
+        "width": 91,
+        "height": 46,
+        "hash": "987416dab4be7c7f9276466d3f692a0d51a5b5664972a5a12d6ba3b75a303501"
+      }
+    },
+    {
+      "id": 50,
+      "type": "layer",
+      "path": "water_3",
+      "name": "water_3",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 716,
+        "right": 1080,
+        "bottom": 1920,
+        "width": 1080,
+        "height": 1204
+      },
+      "position": {
+        "x": 0,
+        "y": -358,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0050__water_3.png",
+        "category": "water",
+        "width": 1080,
+        "height": 1204,
+        "hash": "32798396efdb0f365b845559f6ee24c9661a3634e61f6c74ec327fe379358552"
+      }
+    },
+    {
+      "id": 51,
+      "type": "layer",
+      "path": "water_2",
+      "name": "water_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 906,
+        "right": 1080,
+        "bottom": 1920,
+        "width": 1080,
+        "height": 1014
+      },
+      "position": {
+        "x": 0,
+        "y": -453,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0051__water_2.png",
+        "category": "water",
+        "width": 1080,
+        "height": 1014,
+        "hash": "b5358d86665b8669fd5f31f28367b0aec1c80783719efcb29c94d4352a576013"
+      }
+    },
+    {
+      "id": 52,
+      "type": "layer",
+      "path": "water_cicles_3",
+      "name": "water_cicles_3",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 415,
+        "top": 1141,
+        "right": 1124,
+        "bottom": 1348,
+        "width": 709,
+        "height": 207
+      },
+      "position": {
+        "x": 229.5,
+        "y": -284.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0052__water_cicles_3.png",
+        "category": "water",
+        "width": 709,
+        "height": 207,
+        "hash": "4178f1a5fa3d70a29d74c46c89e79fa0fed750381cb27fab5727e7faea28cc80"
+      }
+    },
+    {
+      "id": 53,
+      "type": "layer",
+      "path": "splash_3",
+      "name": "splash_3",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 662,
+        "top": 1039,
+        "right": 1007,
+        "bottom": 1237,
+        "width": 345,
+        "height": 198
+      },
+      "position": {
+        "x": 294.5,
+        "y": -178,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0053__splash_3.png",
+        "category": "water",
+        "width": 345,
+        "height": 198,
+        "hash": "bedcc741ca462651f8f00072bdc76a529e0aabee03ebedcc32faf820350e98f9"
+      }
+    },
+    {
+      "id": 54,
+      "type": "layer",
+      "path": "jet",
+      "name": "jet",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 540,
+        "top": 135,
+        "right": 986,
+        "bottom": 1226,
+        "width": 446,
+        "height": 1091
+      },
+      "position": {
+        "x": 223,
+        "y": 279.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0054__jet.png",
+        "category": "water",
+        "width": 446,
+        "height": 1091,
+        "hash": "be0356310b2eb7868d0954c314a2a7f5cf7aaf955895cc3846d790cfe0a4ef0e"
+      }
+    },
+    {
+      "id": 55,
+      "type": "layer",
+      "path": "water_1",
+      "name": "water_1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 1046,
+        "right": 1080,
+        "bottom": 1920,
+        "width": 1080,
+        "height": 874
+      },
+      "position": {
+        "x": 0,
+        "y": -523,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0055__water_1.png",
+        "category": "water",
+        "width": 1080,
+        "height": 874,
+        "hash": "858e8cc82630166bd92d03d3ed95540fedc29ad702993adbbfceeb9ab932ab17"
+      }
+    },
+    {
+      "id": 56,
+      "type": "layer",
+      "path": "jet_1",
+      "name": "jet_1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 630,
+        "top": 113,
+        "right": 991,
+        "bottom": 1015,
+        "width": 361,
+        "height": 902
+      },
+      "position": {
+        "x": 270.5,
+        "y": 396,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0056__jet_1.png",
+        "category": "water",
+        "width": 361,
+        "height": 902,
+        "hash": "b6c831ac24ae5fe87ed9ecafc330a76021c837fe673327e0e2358285bdb8c9e0"
+      }
+    },
+    {
+      "id": 57,
+      "type": "layer",
+      "path": "splash_2",
+      "name": "splash_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 769,
+        "top": 1121,
+        "right": 966,
+        "bottom": 1237,
+        "width": 197,
+        "height": 116
+      },
+      "position": {
+        "x": 327.5,
+        "y": -219,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0057__splash_2.png",
+        "category": "water",
+        "width": 197,
+        "height": 116,
+        "hash": "361cb246b96bca116a0353689c6815a70f6a08e58dbe5c6172e22a0bd403221d"
+      }
+    },
+    {
+      "id": 58,
+      "type": "layer",
+      "path": "splash_1",
+      "name": "splash_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 591,
+        "top": 1090,
+        "right": 821,
+        "bottom": 1246,
+        "width": 230,
+        "height": 156
+      },
+      "position": {
+        "x": 166,
+        "y": -208,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0058__splash_1.png",
+        "category": "water",
+        "width": 230,
+        "height": 156,
+        "hash": "be0b722a55b3c4a3f494ee9cf9aabc102781f41c6f92289ccf4187af167995b6"
+      }
+    },
+    {
+      "id": 59,
+      "type": "layer",
+      "path": "jet_1",
+      "name": "jet_1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 540,
+        "top": 1114,
+        "right": 978,
+        "bottom": 1225,
+        "width": 438,
+        "height": 111
+      },
+      "position": {
+        "x": 219,
+        "y": -209.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0059__jet_1.png",
+        "category": "water",
+        "width": 438,
+        "height": 111,
+        "hash": "a9c6d3024251a48f95ea7af177a251d12867a0694ec414e77251aa789763f5e3"
+      }
+    },
+    {
+      "id": 60,
+      "type": "group",
+      "path": "GIRL_CUT",
+      "name": "GIRL_CUT",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 61,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3_hair_back_2",
+      "name": "ST3_hair_back_2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 409,
+        "top": 630,
+        "right": 543,
+        "bottom": 797,
+        "width": 134,
+        "height": 167
+      },
+      "position": {
+        "x": -64,
+        "y": 246.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0061__girl_cut__st3_hair_back_2.png",
+        "category": "girl",
+        "width": 134,
+        "height": 167,
+        "hash": "dee45a71bb2024a5b621e97683f1b4eef578c30a1e7bb7bae8686211765dcce1"
+      }
+    },
+    {
+      "id": 62,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3_hair_2",
+      "name": "ST3_hair_2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 383,
+        "top": 707,
+        "right": 434,
+        "bottom": 823,
+        "width": 51,
+        "height": 116
+      },
+      "position": {
+        "x": -131.5,
+        "y": 195,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0062__girl_cut__st3_hair_2.png",
+        "category": "girl",
+        "width": 51,
+        "height": 116,
+        "hash": "49e8beadf82e6c6c9aeb759d9e5e2be768ca1d2334a0861133e762b8977ab504"
+      }
+    },
+    {
+      "id": 63,
+      "type": "group",
+      "path": "GIRL_CUT/ST1",
+      "name": "ST1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 64,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_pelvis_r",
+      "name": "ST1_GIRL_pelvis_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 476,
+        "top": 957,
+        "right": 646,
+        "bottom": 1072,
+        "width": 170,
+        "height": 115
+      },
+      "position": {
+        "x": 21,
+        "y": -54.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0064__girl_cut__st1__st1_girl_pelvis_r.png",
+        "category": "girl",
+        "width": 170,
+        "height": 115,
+        "hash": "f598082580cecfab27e8113338e3925457dc55e90aea61311b1adc6768c41437"
+      }
+    },
+    {
+      "id": 65,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_leg_l",
+      "name": "ST1_GIRL_leg_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 491,
+        "top": 1196,
+        "right": 552,
+        "bottom": 1358,
+        "width": 61,
+        "height": 162
+      },
+      "position": {
+        "x": -18.5,
+        "y": -317,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0065__girl_cut__st1__st1_girl_leg_l.png",
+        "category": "girl",
+        "width": 61,
+        "height": 162,
+        "hash": "9667e699ca6cad83d79e577f1a9bcce342c333425b7148b41d876ac049ed697a"
+      }
+    },
+    {
+      "id": 66,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_hip_l",
+      "name": "ST1_GIRL_hip_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 475,
+        "top": 1013,
+        "right": 559,
+        "bottom": 1246,
+        "width": 84,
+        "height": 233
+      },
+      "position": {
+        "x": -23,
+        "y": -169.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0066__girl_cut__st1__st1_girl_hip_l.png",
+        "category": "girl",
+        "width": 84,
+        "height": 233,
+        "hash": "f2af6f7f2b22c43a6bca6a1957b3f078e0fb8073dec8e0a886f681a14642b5d1"
+      }
+    },
+    {
+      "id": 67,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_foot_l",
+      "name": "ST1_GIRL_foot_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 501,
+        "top": 1333,
+        "right": 563,
+        "bottom": 1472,
+        "width": 62,
+        "height": 139
+      },
+      "position": {
+        "x": -8,
+        "y": -442.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0067__girl_cut__st1__st1_girl_foot_l.png",
+        "category": "girl",
+        "width": 62,
+        "height": 139,
+        "hash": "f665ecd3a57a7b96a91dc218e1e836307872a64c6b4ac17dcc40c649c69beed9"
+      }
+    },
+    {
+      "id": 68,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_hip_r",
+      "name": "ST1_GIRL_hip_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 525,
+        "top": 961,
+        "right": 649,
+        "bottom": 1101,
+        "width": 124,
+        "height": 140
+      },
+      "position": {
+        "x": 47,
+        "y": -71,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0068__girl_cut__st1__st1_girl_hip_r.png",
+        "category": "girl",
+        "width": 124,
+        "height": 140,
+        "hash": "fab4efd0d8fd3f5ac470ec44bf06d46a1949dd1574a560b8eef2b68cd2ebe444"
+      }
+    },
+    {
+      "id": 69,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_leg_r",
+      "name": "ST1_GIRL_leg_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 526,
+        "top": 1033,
+        "right": 655,
+        "bottom": 1173,
+        "width": 129,
+        "height": 140
+      },
+      "position": {
+        "x": 50.5,
+        "y": -143,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0069__girl_cut__st1__st1_girl_leg_r.png",
+        "category": "girl",
+        "width": 129,
+        "height": 140,
+        "hash": "4f85174c026795c850cd0280b5976b9b8245a38e4be951e3a6eb4a9de5dcabf3"
+      }
+    },
+    {
+      "id": 70,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_foot_r",
+      "name": "ST1_GIRL_foot_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 610,
+        "top": 1131,
+        "right": 691,
+        "bottom": 1274,
+        "width": 81,
+        "height": 143
+      },
+      "position": {
+        "x": 110.5,
+        "y": -242.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0070__girl_cut__st1__st1_girl_foot_r.png",
+        "category": "girl",
+        "width": 81,
+        "height": 143,
+        "hash": "249f275e3cf6d835834f05179ef4c7ca5c5f825440405fa12d2ed896cf52abbe"
+      }
+    },
+    {
+      "id": 71,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_torso",
+      "name": "ST1_GIRL_torso",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 421,
+        "top": 696,
+        "right": 648,
+        "bottom": 1010,
+        "width": 227,
+        "height": 314
+      },
+      "position": {
+        "x": -5.5,
+        "y": 107,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0071__girl_cut__st1__st1_girl_torso.png",
+        "category": "girl",
+        "width": 227,
+        "height": 314,
+        "hash": "a59163bb1d3761efb9ed3c3c6f26692987cdad59d68de8a3181306e409ed1c73"
+      }
+    },
+    {
+      "id": 72,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_shoulder_к",
+      "name": "ST1_GIRL_shoulder_к",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 553,
+        "top": 723,
+        "right": 651,
+        "bottom": 834,
+        "width": 98,
+        "height": 111
+      },
+      "position": {
+        "x": 62,
+        "y": 181.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0072__girl_cut__st1__st1_girl_shoulder_к.png",
+        "category": "girl",
+        "width": 98,
+        "height": 111,
+        "hash": "9398ab7ec6f9b6010654f766c0af02b2e0202b372b0cb94f00d28057a32f6bee"
+      }
+    },
+    {
+      "id": 73,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_arm_к",
+      "name": "ST1_GIRL_arm_к",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 607,
+        "top": 743,
+        "right": 693,
+        "bottom": 846,
+        "width": 86,
+        "height": 103
+      },
+      "position": {
+        "x": 110,
+        "y": 165.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0073__girl_cut__st1__st1_girl_arm_к.png",
+        "category": "girl",
+        "width": 86,
+        "height": 103,
+        "hash": "1b9ae7be941553408858120434159306be6743f17abf7a92f84cb0fd46a0e227"
+      }
+    },
+    {
+      "id": 74,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_palm_r",
+      "name": "ST1_GIRL_palm_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 636,
+        "top": 669,
+        "right": 704,
+        "bottom": 778,
+        "width": 68,
+        "height": 109
+      },
+      "position": {
+        "x": 130,
+        "y": 236.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0074__girl_cut__st1__st1_girl_palm_r.png",
+        "category": "girl",
+        "width": 68,
+        "height": 109,
+        "hash": "168ecb07f1e9bfe9e5f8f6356a7fa7d4da9d5f10d791085977bbd62f5200b1ff"
+      }
+    },
+    {
+      "id": 75,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_sleeve_r",
+      "name": "ST1_GIRL_sleeve_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 651,
+        "top": 746,
+        "right": 693,
+        "bottom": 788,
+        "width": 42,
+        "height": 42
+      },
+      "position": {
+        "x": 132,
+        "y": 193,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0075__girl_cut__st1__st1_girl_sleeve_r.png",
+        "category": "girl",
+        "width": 42,
+        "height": 42,
+        "hash": "b3317c086acda16f3ed4f9c3f34bf4cea6be71f0a02c2e135f1e267c5b3daa06"
+      }
+    },
+    {
+      "id": 76,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_shoulder_l",
+      "name": "ST1_GIRL_shoulder_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 418,
+        "top": 778,
+        "right": 495,
+        "bottom": 931,
+        "width": 77,
+        "height": 153
+      },
+      "position": {
+        "x": -83.5,
+        "y": 105.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0076__girl_cut__st1__st1_girl_shoulder_l.png",
+        "category": "girl",
+        "width": 77,
+        "height": 153,
+        "hash": "6124d95d6f7d0b44f7fd17534c0a43449bff4a25b37c49f7f0950757e64ed629"
+      }
+    },
+    {
+      "id": 77,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_arm_l",
+      "name": "ST1_GIRL_arm_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 448,
+        "top": 840,
+        "right": 563,
+        "bottom": 931,
+        "width": 115,
+        "height": 91
+      },
+      "position": {
+        "x": -34.5,
+        "y": 74.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0077__girl_cut__st1__st1_girl_arm_l.png",
+        "category": "girl",
+        "width": 115,
+        "height": 91,
+        "hash": "eaa5985aa74e4cc521755fd905b1ba5c0963111800d5dd352003c0d6cc392424"
+      }
+    },
+    {
+      "id": 78,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_palm_l",
+      "name": "ST1_GIRL_palm_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 529,
+        "top": 772,
+        "right": 604,
+        "bottom": 876,
+        "width": 75,
+        "height": 104
+      },
+      "position": {
+        "x": 26.5,
+        "y": 136,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0078__girl_cut__st1__st1_girl_palm_l.png",
+        "category": "girl",
+        "width": 75,
+        "height": 104,
+        "hash": "a3f57289cbf8395b64c5c66b3b264efe0f0d49640ff28801a9af3a100d8b80d0"
+      }
+    },
+    {
+      "id": 79,
+      "type": "layer",
+      "path": "GIRL_CUT/ST1/ST1_GIRL_sleeve_l",
+      "name": "ST1_GIRL_sleeve_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 523,
+        "top": 840,
+        "right": 563,
+        "bottom": 886,
+        "width": 40,
+        "height": 46
+      },
+      "position": {
+        "x": 3,
+        "y": 97,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0079__girl_cut__st1__st1_girl_sleeve_l.png",
+        "category": "girl",
+        "width": 40,
+        "height": 46,
+        "hash": "0d1439726ee586f36437781e277ce6a3a3fc2b2f1a5c0810b702c1a8bf3fa643"
+      }
+    },
+    {
+      "id": 80,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1",
+      "name": "CUT_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 81,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1/ST2",
+      "name": "ST2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 82,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_hair_back_b",
+      "name": "ST2_hair_back_b",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 476,
+        "top": 620,
+        "right": 599,
+        "bottom": 781,
+        "width": 123,
+        "height": 161
+      },
+      "position": {
+        "x": -2.5,
+        "y": 259.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0082__girl_cut__cut_1__st2__st2_hair_back_b.png",
+        "category": "girl",
+        "width": 123,
+        "height": 161,
+        "hash": "584837981985a14ac67620419543dc703ce2032b77fc6efabc73229272e94ba2"
+      }
+    },
+    {
+      "id": 83,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_pelvis",
+      "name": "ST2_GIRL_pelvis",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 450,
+        "top": 950,
+        "right": 634,
+        "bottom": 1080,
+        "width": 184,
+        "height": 130
+      },
+      "position": {
+        "x": 2,
+        "y": -55,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0083__girl_cut__cut_1__st2__st2_girl_pelvis.png",
+        "category": "girl",
+        "width": 184,
+        "height": 130,
+        "hash": "cac53ee4f61603485b54eee78c322fcf9a3400723867dc286cf024d1b367c683"
+      }
+    },
+    {
+      "id": 84,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_hip_r",
+      "name": "ST2_GIRL_hip_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 544,
+        "top": 1020,
+        "right": 636,
+        "bottom": 1234,
+        "width": 92,
+        "height": 214
+      },
+      "position": {
+        "x": 50,
+        "y": -167,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0084__girl_cut__cut_1__st2__st2_girl_hip_r.png",
+        "category": "girl",
+        "width": 92,
+        "height": 214,
+        "hash": "02b489f3fa8d9d7f9a6aeb197fee9d93511aa5d71fed75e08fae45a7238cce8d"
+      }
+    },
+    {
+      "id": 85,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_leg_r",
+      "name": "ST2_GIRL_leg_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 557,
+        "top": 1192,
+        "right": 619,
+        "bottom": 1383,
+        "width": 62,
+        "height": 191
+      },
+      "position": {
+        "x": 48,
+        "y": -327.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0085__girl_cut__cut_1__st2__st2_girl_leg_r.png",
+        "category": "girl",
+        "width": 62,
+        "height": 191,
+        "hash": "69de69cce61d619b2ad69cc5f44910b7d8e2efe1a12c0936cdc633e31890aa6b"
+      }
+    },
+    {
+      "id": 86,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_foot_r",
+      "name": "ST2_GIRL_foot_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 556,
+        "top": 1348,
+        "right": 613,
+        "bottom": 1490,
+        "width": 57,
+        "height": 142
+      },
+      "position": {
+        "x": 44.5,
+        "y": -459,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0086__girl_cut__cut_1__st2__st2_girl_foot_r.png",
+        "category": "girl",
+        "width": 57,
+        "height": 142,
+        "hash": "74ba89a607180f0c88eacbe581c6ad29bba0445cedfb8e4ada25a468e62d2c33"
+      }
+    },
+    {
+      "id": 87,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_hip_l",
+      "name": "ST2_GIRL_hip_l",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 450,
+        "top": 1020,
+        "right": 541,
+        "bottom": 1234,
+        "width": 91,
+        "height": 214
+      },
+      "position": {
+        "x": -44.5,
+        "y": -167,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0087__girl_cut__cut_1__st2__st2_girl_hip_l.png",
+        "category": "girl",
+        "width": 91,
+        "height": 214,
+        "hash": "c503b66bab572449f5061b3bd0831f6d3ccfa45f0b3f165496f261fd1070367e"
+      }
+    },
+    {
+      "id": 88,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_leg_l",
+      "name": "ST2_GIRL_leg_l",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 467,
+        "top": 1192,
+        "right": 529,
+        "bottom": 1383,
+        "width": 62,
+        "height": 191
+      },
+      "position": {
+        "x": -42,
+        "y": -327.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0088__girl_cut__cut_1__st2__st2_girl_leg_l.png",
+        "category": "girl",
+        "width": 62,
+        "height": 191,
+        "hash": "c2996b55dd4f5e90b336cfbf33d25296232360f5c7ccf8b11b7d2cefe12e090c"
+      }
+    },
+    {
+      "id": 89,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_foot_l",
+      "name": "ST2_GIRL_foot_l",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 473,
+        "top": 1348,
+        "right": 530,
+        "bottom": 1490,
+        "width": 57,
+        "height": 142
+      },
+      "position": {
+        "x": -38.5,
+        "y": -459,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0089__girl_cut__cut_1__st2__st2_girl_foot_l.png",
+        "category": "girl",
+        "width": 57,
+        "height": 142,
+        "hash": "4b19b69379c11c68363a3909606428f73fb82140d77f4e382bab948dc1a96f88"
+      }
+    },
+    {
+      "id": 90,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_foot_l копия",
+      "name": "ST2_GIRL_foot_l копия",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 450,
+        "top": 1020,
+        "right": 636,
+        "bottom": 1490,
+        "width": 186,
+        "height": 470
+      },
+      "position": {
+        "x": 3,
+        "y": -295,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0090__girl_cut__cut_1__st2__st2_girl_foot_l_копия.png",
+        "category": "girl",
+        "width": 186,
+        "height": 470,
+        "hash": "ac4e82a6092985ded1b884b723d424a71c042bc88bfafb9c7dce47fb6918b751"
+      }
+    },
+    {
+      "id": 91,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_shoulder_r",
+      "name": "ST2_GIRL_shoulder_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 599,
+        "top": 753,
+        "right": 673,
+        "bottom": 946,
+        "width": 74,
+        "height": 193
+      },
+      "position": {
+        "x": 96,
+        "y": 110.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0091__girl_cut__cut_1__st2__st2_girl_shoulder_r.png",
+        "category": "girl",
+        "width": 74,
+        "height": 193,
+        "hash": "7419f8bac986752134bf91d627686d712484464646cd0274726e4fe1b1393d01"
+      }
+    },
+    {
+      "id": 92,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_arm_r",
+      "name": "ST2_GIRL_arm_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 622,
+        "top": 870,
+        "right": 698,
+        "bottom": 947,
+        "width": 76,
+        "height": 77
+      },
+      "position": {
+        "x": 120,
+        "y": 51.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0092__girl_cut__cut_1__st2__st2_girl_arm_r.png",
+        "category": "girl",
+        "width": 76,
+        "height": 77,
+        "hash": "06baffba052a5dd0e1acfd90405753f87e71281559274d7de96049b89f8b4310"
+      }
+    },
+    {
+      "id": 93,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_Girl_palm_r",
+      "name": "ST2_Girl_palm_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 653,
+        "top": 825,
+        "right": 714,
+        "bottom": 900,
+        "width": 61,
+        "height": 75
+      },
+      "position": {
+        "x": 143.5,
+        "y": 97.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0093__girl_cut__cut_1__st2__st2_girl_palm_r.png",
+        "category": "girl",
+        "width": 61,
+        "height": 75,
+        "hash": "e49a283ed24643416a01c246def6a99b37e7be729d31792a919514eaec71a5a6"
+      }
+    },
+    {
+      "id": 94,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_shoulder_r копия",
+      "name": "ST2_GIRL_shoulder_r копия",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 417,
+        "top": 756,
+        "right": 491,
+        "bottom": 950,
+        "width": 74,
+        "height": 194
+      },
+      "position": {
+        "x": -86,
+        "y": 107,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0094__girl_cut__cut_1__st2__st2_girl_shoulder_r_копия.png",
+        "category": "girl",
+        "width": 74,
+        "height": 194,
+        "hash": "08ffe877367cf73896060890b70be1826ab86dd2a33ec5666815b0df42e163f6"
+      }
+    },
+    {
+      "id": 95,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_arm_r копия",
+      "name": "ST2_GIRL_arm_r копия",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 392,
+        "top": 874,
+        "right": 468,
+        "bottom": 951,
+        "width": 76,
+        "height": 77
+      },
+      "position": {
+        "x": -110,
+        "y": 47.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0095__girl_cut__cut_1__st2__st2_girl_arm_r_копия.png",
+        "category": "girl",
+        "width": 76,
+        "height": 77,
+        "hash": "e5d373eb14ff10c1901f706356ac82bb82257f050f5a583ea3da8c66b14fd1a2"
+      }
+    },
+    {
+      "id": 96,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_Girl_palm_r копия",
+      "name": "ST2_Girl_palm_r копия",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 376,
+        "top": 829,
+        "right": 437,
+        "bottom": 903,
+        "width": 61,
+        "height": 74
+      },
+      "position": {
+        "x": -133.5,
+        "y": 94,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0096__girl_cut__cut_1__st2__st2_girl_palm_r_копия.png",
+        "category": "girl",
+        "width": 61,
+        "height": 74,
+        "hash": "7064a003af398f55a3bd71139315c2ea0dc7285a18e0001940280029db91443e"
+      }
+    },
+    {
+      "id": 97,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/ST2_GIRL_torso",
+      "name": "ST2_GIRL_torso",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 450,
+        "top": 712,
+        "right": 636,
+        "bottom": 1031,
+        "width": 186,
+        "height": 319
+      },
+      "position": {
+        "x": 3,
+        "y": 88.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0097__girl_cut__cut_1__st2__st2_girl_torso.png",
+        "category": "girl",
+        "width": 186,
+        "height": 319,
+        "hash": "6793397d58a6732390e7007f6029df3deb192de0544b973f3d66da0c2bcac700"
+      }
+    },
+    {
+      "id": 98,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1",
+      "name": "head_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 99,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/ST2_GIRL_hair_l_и",
+      "name": "ST2_GIRL_hair_l_и",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 444,
+        "top": 694,
+        "right": 488,
+        "bottom": 764,
+        "width": 44,
+        "height": 70
+      },
+      "position": {
+        "x": -74,
+        "y": 231,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0099__girl_cut__cut_1__st2__head_1__st2_girl_hair_l_и.png",
+        "category": "girl",
+        "width": 44,
+        "height": 70,
+        "hash": "774cea2704148926f19ed29f97dda32c9dd76e047636f6c34788accbc4c739c3"
+      }
+    },
+    {
+      "id": 100,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head",
+      "name": "Scared_head",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 101,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head/ST2_GIRL_whites",
+      "name": "ST2_GIRL_whites",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 509,
+        "top": 672,
+        "right": 572,
+        "bottom": 693,
+        "width": 63,
+        "height": 21
+      },
+      "position": {
+        "x": 0.5,
+        "y": 277.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0101__girl_cut__cut_1__st2__head_1__scared_head__st2_girl_whites.png",
+        "category": "girl",
+        "width": 63,
+        "height": 21,
+        "hash": "468297326b4263f0932200e48423517305d487f1d613196323dabceb6ee05e71"
+      }
+    },
+    {
+      "id": 102,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head/ST2_GIRL_iris",
+      "name": "ST2_GIRL_iris",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 515,
+        "top": 677,
+        "right": 565,
+        "bottom": 689,
+        "width": 50,
+        "height": 12
+      },
+      "position": {
+        "x": 0,
+        "y": 277,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0102__girl_cut__cut_1__st2__head_1__scared_head__st2_girl_iris.png",
+        "category": "girl",
+        "width": 50,
+        "height": 12,
+        "hash": "e062360a6c2c4e4d7ccd8b60f2681581e9f674d3398c46ecd102055cb4717c69"
+      }
+    },
+    {
+      "id": 103,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head/ST2_GIRL_head",
+      "name": "ST2_GIRL_head",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 489,
+        "top": 617,
+        "right": 592,
+        "bottom": 748,
+        "width": 103,
+        "height": 131
+      },
+      "position": {
+        "x": 0.5,
+        "y": 277.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0103__girl_cut__cut_1__st2__head_1__scared_head__st2_girl_head.png",
+        "category": "girl",
+        "width": 103,
+        "height": 131,
+        "hash": "63d81ef04b4d47a788b69fa3848384cac01adb22ce86db96eedb72825a3bbe71"
+      }
+    },
+    {
+      "id": 104,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head/ST2_GIRL_lips",
+      "name": "ST2_GIRL_lips",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 524,
+        "top": 711,
+        "right": 560,
+        "bottom": 737,
+        "width": 36,
+        "height": 26
+      },
+      "position": {
+        "x": 2,
+        "y": 236,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0104__girl_cut__cut_1__st2__head_1__scared_head__st2_girl_lips.png",
+        "category": "girl",
+        "width": 36,
+        "height": 26,
+        "hash": "cb486d0cc20572224428e0b7c1b6045c398eb760d74f8aee713a6b9eed688501"
+      }
+    },
+    {
+      "id": 105,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Scared_head/ST2_GIRL_brows",
+      "name": "ST2_GIRL_brows",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 505,
+        "top": 656,
+        "right": 576,
+        "bottom": 678,
+        "width": 71,
+        "height": 22
+      },
+      "position": {
+        "x": 0.5,
+        "y": 293,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0105__girl_cut__cut_1__st2__head_1__scared_head__st2_girl_brows.png",
+        "category": "girl",
+        "width": 71,
+        "height": 22,
+        "hash": "d1796e8a7e796e3b2b330a1f75726ff11070f72b40e32accb4116cdc40c7429f"
+      }
+    },
+    {
+      "id": 106,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head",
+      "name": "Happy_head",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 107,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head/Happy_whites",
+      "name": "Happy_whites",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 508,
+        "top": 676,
+        "right": 569,
+        "bottom": 696,
+        "width": 61,
+        "height": 20
+      },
+      "position": {
+        "x": -1.5,
+        "y": 274,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0107__girl_cut__cut_1__st2__head_1__happy_head__happy_whites.png",
+        "category": "girl",
+        "width": 61,
+        "height": 20,
+        "hash": "ed42daf457d141285403ee3b3fcafa5ecaf7dc3a6580f59dd29405dfd74d4071"
+      }
+    },
+    {
+      "id": 108,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head/Happy_iris",
+      "name": "Happy_iris",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 515,
+        "top": 680,
+        "right": 563,
+        "bottom": 690,
+        "width": 48,
+        "height": 10
+      },
+      "position": {
+        "x": -1,
+        "y": 275,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0108__girl_cut__cut_1__st2__head_1__happy_head__happy_iris.png",
+        "category": "girl",
+        "width": 48,
+        "height": 10,
+        "hash": "8a0c2916ee9294b3d2147f6d4da604c35423be79729443d8634d244de58c3129"
+      }
+    },
+    {
+      "id": 109,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head/Happy_face",
+      "name": "Happy_face",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 492,
+        "top": 628,
+        "right": 589,
+        "bottom": 748,
+        "width": 97,
+        "height": 120
+      },
+      "position": {
+        "x": 0.5,
+        "y": 272,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0109__girl_cut__cut_1__st2__head_1__happy_head__happy_face.png",
+        "category": "girl",
+        "width": 97,
+        "height": 120,
+        "hash": "2ee28d90729c4b967935eb3fc741d9d51524d227603666a9fa0287862dfcfbfa"
+      }
+    },
+    {
+      "id": 110,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head/Happy_brows",
+      "name": "Happy_brows",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 505,
+        "top": 664,
+        "right": 575,
+        "bottom": 680,
+        "width": 70,
+        "height": 16
+      },
+      "position": {
+        "x": 0,
+        "y": 288,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0110__girl_cut__cut_1__st2__head_1__happy_head__happy_brows.png",
+        "category": "girl",
+        "width": 70,
+        "height": 16,
+        "hash": "d62bd5544306abb68fcf58ee9836da32850a71301f4e62051665676edd9a9eb3"
+      }
+    },
+    {
+      "id": 111,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/Happy_head/Happy_lips",
+      "name": "Happy_lips",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 520,
+        "top": 713,
+        "right": 564,
+        "bottom": 737,
+        "width": 44,
+        "height": 24
+      },
+      "position": {
+        "x": 2,
+        "y": 235,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0111__girl_cut__cut_1__st2__head_1__happy_head__happy_lips.png",
+        "category": "girl",
+        "width": 44,
+        "height": 24,
+        "hash": "a5fb687f8bde942f2fd9f067c938c716ff4c6a17e8489fa3abfa56da0f53bd15"
+      }
+    },
+    {
+      "id": 112,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/ST2_GIRL_hair_main",
+      "name": "ST2_GIRL_hair_main",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 490,
+        "top": 608,
+        "right": 581,
+        "bottom": 664,
+        "width": 91,
+        "height": 56
+      },
+      "position": {
+        "x": -4.5,
+        "y": 324,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0112__girl_cut__cut_1__st2__head_1__st2_girl_hair_main.png",
+        "category": "girl",
+        "width": 91,
+        "height": 56,
+        "hash": "de42fdd0d1a04168565a879f65409804d120f69ab74f9060f0c50605304d73c1"
+      }
+    },
+    {
+      "id": 113,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/ST2_GIRL_hair_l_f",
+      "name": "ST2_GIRL_hair_l_f",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 458,
+        "top": 609,
+        "right": 541,
+        "bottom": 845,
+        "width": 83,
+        "height": 236
+      },
+      "position": {
+        "x": -40.5,
+        "y": 233,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0113__girl_cut__cut_1__st2__head_1__st2_girl_hair_l_f.png",
+        "category": "girl",
+        "width": 83,
+        "height": 236,
+        "hash": "28b35fae8df9170ebc3501cf2aa06f9ca13c3d1e186fbefa13038558bb091667"
+      }
+    },
+    {
+      "id": 114,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/ST2_GIRL_hair_r_b",
+      "name": "ST2_GIRL_hair_r_b",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 593,
+        "top": 678,
+        "right": 633,
+        "bottom": 759,
+        "width": 40,
+        "height": 81
+      },
+      "position": {
+        "x": 73,
+        "y": 241.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0114__girl_cut__cut_1__st2__head_1__st2_girl_hair_r_b.png",
+        "category": "girl",
+        "width": 40,
+        "height": 81,
+        "hash": "fa64074e8d0872a51eb7d4d10b5551f7fcb63181462bf4597d0b5a4b4b449219"
+      }
+    },
+    {
+      "id": 115,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2/head_1/ST2_GIRL_hair_r",
+      "name": "ST2_GIRL_hair_r",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 553,
+        "top": 616,
+        "right": 615,
+        "bottom": 843,
+        "width": 62,
+        "height": 227
+      },
+      "position": {
+        "x": 44,
+        "y": 230.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0115__girl_cut__cut_1__st2__head_1__st2_girl_hair_r.png",
+        "category": "girl",
+        "width": 62,
+        "height": 227,
+        "hash": "acdcac7f50c491321b8f0333204de7f492f3ffe18a5d5d84b79cc9c111e20e91"
+      }
+    },
+    {
+      "id": 116,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_arm_r2",
+      "name": "ST2_GIRL_arm_r2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 550,
+        "top": 856,
+        "right": 670,
+        "bottom": 944,
+        "width": 120,
+        "height": 88
+      },
+      "position": {
+        "x": 70,
+        "y": 60,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0116__girl_cut__cut_1__st2_girl_arm_r2.png",
+        "category": "girl",
+        "width": 120,
+        "height": 88,
+        "hash": "966a91d28c81fa6f4a1326f710a98ae1164da37a0c4d38c55654132062f62161"
+      }
+    },
+    {
+      "id": 117,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_palm_r2",
+      "name": "ST2_GIRL_palm_r2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 541,
+        "top": 784,
+        "right": 584,
+        "bottom": 893,
+        "width": 43,
+        "height": 109
+      },
+      "position": {
+        "x": 22.5,
+        "y": 121.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0117__girl_cut__cut_1__st2_girl_palm_r2.png",
+        "category": "girl",
+        "width": 43,
+        "height": 109,
+        "hash": "2eb2e0d3e979d4721978370fd3d5f71babac120728ee8e4b9084e03be5d0b028"
+      }
+    },
+    {
+      "id": 118,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_sleeve_r2",
+      "name": "ST2_GIRL_sleeve_r2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 551,
+        "top": 856,
+        "right": 590,
+        "bottom": 902,
+        "width": 39,
+        "height": 46
+      },
+      "position": {
+        "x": 30.5,
+        "y": 81,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0118__girl_cut__cut_1__st2_girl_sleeve_r2.png",
+        "category": "girl",
+        "width": 39,
+        "height": 46,
+        "hash": "29ee4175c451460c56a5a66bcb30bf35771d0e7561e33c69d1e1f3ff4368b9f3"
+      }
+    },
+    {
+      "id": 119,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_arm_l2",
+      "name": "ST2_GIRL_arm_l2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 417,
+        "top": 856,
+        "right": 538,
+        "bottom": 944,
+        "width": 121,
+        "height": 88
+      },
+      "position": {
+        "x": -62.5,
+        "y": 60,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0119__girl_cut__cut_1__st2_girl_arm_l2.png",
+        "category": "girl",
+        "width": 121,
+        "height": 88,
+        "hash": "30197385f893af3917307f3754323807e01f807e26178a2c8a6e1c351101ab2f"
+      }
+    },
+    {
+      "id": 120,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_palm_l2",
+      "name": "ST2_GIRL_palm_l2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 504,
+        "top": 784,
+        "right": 546,
+        "bottom": 893,
+        "width": 42,
+        "height": 109
+      },
+      "position": {
+        "x": -15,
+        "y": 121.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0120__girl_cut__cut_1__st2_girl_palm_l2.png",
+        "category": "girl",
+        "width": 42,
+        "height": 109,
+        "hash": "b7fe12c10f6c52ed4d402065276fefc2db5a21c4a115c4741a97abfc9dfe5908"
+      }
+    },
+    {
+      "id": 121,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/ST2_GIRL_sleeve_l2",
+      "name": "ST2_GIRL_sleeve_l2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 497,
+        "top": 856,
+        "right": 537,
+        "bottom": 902,
+        "width": 40,
+        "height": 46
+      },
+      "position": {
+        "x": -23,
+        "y": 81,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0121__girl_cut__cut_1__st2_girl_sleeve_l2.png",
+        "category": "girl",
+        "width": 40,
+        "height": 46,
+        "hash": "f9cf2bcc848516d68fa5607c26af9015dded669a5f772eb54afad74599203156"
+      }
+    },
+    {
+      "id": 122,
+      "type": "group",
+      "path": "GIRL_CUT/CUT_1/head_1 копия",
+      "name": "head_1 копия",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 123,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_hair_l_и",
+      "name": "ST2_GIRL_hair_l_и",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 387,
+        "top": 705,
+        "right": 430,
+        "bottom": 780,
+        "width": 43,
+        "height": 75
+      },
+      "position": {
+        "x": -131.5,
+        "y": 217.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0123__girl_cut__cut_1__head_1_копия__st2_girl_hair_l_и.png",
+        "category": "girl",
+        "width": 43,
+        "height": 75,
+        "hash": "b3b4d26090f82ad100375fcc0036b8828162ec319317f71cefad6d30bf14f5fa"
+      }
+    },
+    {
+      "id": 124,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_whites",
+      "name": "ST2_GIRL_whites",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 441,
+        "top": 671,
+        "right": 505,
+        "bottom": 700,
+        "width": 64,
+        "height": 29
+      },
+      "position": {
+        "x": -67,
+        "y": 274.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0124__girl_cut__cut_1__head_1_копия__st2_girl_whites.png",
+        "category": "girl",
+        "width": 64,
+        "height": 29,
+        "hash": "b60b7c6acd4cae3ddf3f85615ea58b6d7ba08b8d48d975371a5134955c7aa110"
+      }
+    },
+    {
+      "id": 125,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_iris",
+      "name": "ST2_GIRL_iris",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 450,
+        "top": 675,
+        "right": 501,
+        "bottom": 694,
+        "width": 51,
+        "height": 19
+      },
+      "position": {
+        "x": -64.5,
+        "y": 275.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0125__girl_cut__cut_1__head_1_копия__st2_girl_iris.png",
+        "category": "girl",
+        "width": 51,
+        "height": 19,
+        "hash": "08434a2b12517b4f6050e6142294ff99d01e9dd5cc4944dd9d135e817458de9d"
+      }
+    },
+    {
+      "id": 126,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_head",
+      "name": "ST2_GIRL_head",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 421,
+        "top": 618,
+        "right": 526,
+        "bottom": 751,
+        "width": 105,
+        "height": 133
+      },
+      "position": {
+        "x": -66.5,
+        "y": 275.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0126__girl_cut__cut_1__head_1_копия__st2_girl_head.png",
+        "category": "girl",
+        "width": 105,
+        "height": 133,
+        "hash": "69b5f19a9ee0f2c603fceb40a1aa0b4e498d49b8e049806bcc57ddc5a4795e48"
+      }
+    },
+    {
+      "id": 127,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_lips",
+      "name": "ST2_GIRL_lips",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 462,
+        "top": 713,
+        "right": 499,
+        "bottom": 740,
+        "width": 37,
+        "height": 27
+      },
+      "position": {
+        "x": -59.5,
+        "y": 233.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0127__girl_cut__cut_1__head_1_копия__st2_girl_lips.png",
+        "category": "girl",
+        "width": 37,
+        "height": 27,
+        "hash": "f1ce0f7292961c24be10f16a1592a6a1f7d4851e00a05b89673eef28983ec4bd"
+      }
+    },
+    {
+      "id": 128,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_brows",
+      "name": "ST2_GIRL_brows",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 437,
+        "top": 658,
+        "right": 508,
+        "bottom": 687,
+        "width": 71,
+        "height": 29
+      },
+      "position": {
+        "x": -67.5,
+        "y": 287.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0128__girl_cut__cut_1__head_1_копия__st2_girl_brows.png",
+        "category": "girl",
+        "width": 71,
+        "height": 29,
+        "hash": "5ac1c17f1b4afdcad852b1bf8f803660d05166d8564b2136d6e3d3a55c970cf6"
+      }
+    },
+    {
+      "id": 129,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_hair_main",
+      "name": "ST2_GIRL_hair_main",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 417,
+        "top": 612,
+        "right": 509,
+        "bottom": 674,
+        "width": 92,
+        "height": 62
+      },
+      "position": {
+        "x": -77,
+        "y": 317,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0129__girl_cut__cut_1__head_1_копия__st2_girl_hair_main.png",
+        "category": "girl",
+        "width": 92,
+        "height": 62,
+        "hash": "4189f5d57c81d1ba29d04e1d12069035702ace53df869537f277824fc576a821"
+      }
+    },
+    {
+      "id": 130,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_hair_l_f",
+      "name": "ST2_GIRL_hair_l_f",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 401,
+        "top": 614,
+        "right": 472,
+        "bottom": 853,
+        "width": 71,
+        "height": 239
+      },
+      "position": {
+        "x": -103.5,
+        "y": 226.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0130__girl_cut__cut_1__head_1_копия__st2_girl_hair_l_f.png",
+        "category": "girl",
+        "width": 71,
+        "height": 239,
+        "hash": "7ce0b3a62777e888bc96a66bd2e26640a346c875bd9ca59b16e610ac2bfa47d5"
+      }
+    },
+    {
+      "id": 131,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_hair_r_b",
+      "name": "ST2_GIRL_hair_r_b",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 532,
+        "top": 672,
+        "right": 576,
+        "bottom": 750,
+        "width": 44,
+        "height": 78
+      },
+      "position": {
+        "x": 14,
+        "y": 249,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0131__girl_cut__cut_1__head_1_копия__st2_girl_hair_r_b.png",
+        "category": "girl",
+        "width": 44,
+        "height": 78,
+        "hash": "b97cb5cc29b60dbd2bf7dedd16a246a49c33e197f6b6c9a6f199dcaac73d51b1"
+      }
+    },
+    {
+      "id": 132,
+      "type": "layer",
+      "path": "GIRL_CUT/CUT_1/head_1 копия/ST2_GIRL_hair_r",
+      "name": "ST2_GIRL_hair_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 478,
+        "top": 616,
+        "right": 562,
+        "bottom": 839,
+        "width": 84,
+        "height": 223
+      },
+      "position": {
+        "x": -20,
+        "y": 232.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0132__girl_cut__cut_1__head_1_копия__st2_girl_hair_r.png",
+        "category": "girl",
+        "width": 84,
+        "height": 223,
+        "hash": "7941c8693b6573796bfc78c1beea2e7a868590d0039b7e86a5c8fdf7682b3aa8"
+      }
+    },
+    {
+      "id": 133,
+      "type": "group",
+      "path": "GIRL_CUT/ST3",
+      "name": "ST3",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 134,
+      "type": "group",
+      "path": "GIRL_CUT/ST3/drown",
+      "name": "drown",
+      "hidden": true,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 135,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_sleeve",
+      "name": "drown_sleeve",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 523,
+        "top": 840,
+        "right": 563,
+        "bottom": 886,
+        "width": 40,
+        "height": 46
+      },
+      "position": {
+        "x": 3,
+        "y": 97,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0135__girl_cut__st3__drown__drown_sleeve.png",
+        "category": "girl",
+        "width": 40,
+        "height": 46,
+        "hash": "e81a1db3c112fa152787811ff2fd22496d79f57a74d38647103d6e09b912ad1f"
+      }
+    },
+    {
+      "id": 136,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_water_arm_l",
+      "name": "drown_water_arm_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 448,
+        "top": 840,
+        "right": 563,
+        "bottom": 931,
+        "width": 115,
+        "height": 91
+      },
+      "position": {
+        "x": -34.5,
+        "y": 74.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0136__girl_cut__st3__drown__drown_water_arm_l.png",
+        "category": "girl",
+        "width": 115,
+        "height": 91,
+        "hash": "705e017e1340b6f30c00d8a8e7a4338558980a4314906c477dc984eeecb3b3fb"
+      }
+    },
+    {
+      "id": 137,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_shoulder_l",
+      "name": "drown_shoulder_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 418,
+        "top": 778,
+        "right": 495,
+        "bottom": 931,
+        "width": 77,
+        "height": 153
+      },
+      "position": {
+        "x": -83.5,
+        "y": 105.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0137__girl_cut__st3__drown__drown_shoulder_l.png",
+        "category": "girl",
+        "width": 77,
+        "height": 153,
+        "hash": "ea99233a47cce2e6d4de4c64e6df404feaef0cbcd60e2d21327a580ccb6218fb"
+      }
+    },
+    {
+      "id": 138,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_pelvis",
+      "name": "drown_pelvis",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 476,
+        "top": 957,
+        "right": 646,
+        "bottom": 1072,
+        "width": 170,
+        "height": 115
+      },
+      "position": {
+        "x": 21,
+        "y": -54.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0138__girl_cut__st3__drown__drown_pelvis.png",
+        "category": "girl",
+        "width": 170,
+        "height": 115,
+        "hash": "f13a1e423b9fea906fedd7acad5731bf36ab7d6efe66fd369d543881b1b18401"
+      }
+    },
+    {
+      "id": 139,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_leg_l",
+      "name": "drown_leg_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 491,
+        "top": 1196,
+        "right": 552,
+        "bottom": 1358,
+        "width": 61,
+        "height": 162
+      },
+      "position": {
+        "x": -18.5,
+        "y": -317,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0139__girl_cut__st3__drown__drown_leg_l.png",
+        "category": "girl",
+        "width": 61,
+        "height": 162,
+        "hash": "ca0f1539326b2d054a20e0dea8fc6bf56b148ae2dc5d9474dfbfeb260a9e0086"
+      }
+    },
+    {
+      "id": 140,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_hip_l",
+      "name": "drown_hip_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 475,
+        "top": 1013,
+        "right": 559,
+        "bottom": 1246,
+        "width": 84,
+        "height": 233
+      },
+      "position": {
+        "x": -23,
+        "y": -169.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0140__girl_cut__st3__drown__drown_hip_l.png",
+        "category": "girl",
+        "width": 84,
+        "height": 233,
+        "hash": "80d8e4f78aa1b9e9a6a45a5ef311d1e1ef0645faf793d126983c2c64a751faff"
+      }
+    },
+    {
+      "id": 141,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_foot_l",
+      "name": "drown_foot_l",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 501,
+        "top": 1333,
+        "right": 563,
+        "bottom": 1472,
+        "width": 62,
+        "height": 139
+      },
+      "position": {
+        "x": -8,
+        "y": -442.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0141__girl_cut__st3__drown__drown_foot_l.png",
+        "category": "girl",
+        "width": 62,
+        "height": 139,
+        "hash": "9bce5554869b1f8aeb378d7de881b0f43dcc0f9d7dcbc39ba72eb93c28fa9905"
+      }
+    },
+    {
+      "id": 142,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_hip_r",
+      "name": "drown_hip_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 525,
+        "top": 961,
+        "right": 649,
+        "bottom": 1101,
+        "width": 124,
+        "height": 140
+      },
+      "position": {
+        "x": 47,
+        "y": -71,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0142__girl_cut__st3__drown__drown_hip_r.png",
+        "category": "girl",
+        "width": 124,
+        "height": 140,
+        "hash": "6c45917a9c7015a708de207b7701705a8ba35c553eace2b0bef85dd05ced1431"
+      }
+    },
+    {
+      "id": 143,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_leg_r",
+      "name": "drown_leg_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 526,
+        "top": 1033,
+        "right": 655,
+        "bottom": 1173,
+        "width": 129,
+        "height": 140
+      },
+      "position": {
+        "x": 50.5,
+        "y": -143,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0143__girl_cut__st3__drown__drown_leg_r.png",
+        "category": "girl",
+        "width": 129,
+        "height": 140,
+        "hash": "42ce71ea345a23c80b12877f500526e876616d8270c31f087f7f0875da3bbfc6"
+      }
+    },
+    {
+      "id": 144,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_foot_r",
+      "name": "drown_foot_r",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 610,
+        "top": 1131,
+        "right": 691,
+        "bottom": 1274,
+        "width": 81,
+        "height": 143
+      },
+      "position": {
+        "x": 110.5,
+        "y": -242.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0144__girl_cut__st3__drown__drown_foot_r.png",
+        "category": "girl",
+        "width": 81,
+        "height": 143,
+        "hash": "afcd8af5520fd166d1ff00a7aa9061c41e25bedf6ceb7500d24dd82180813d31"
+      }
+    },
+    {
+      "id": 145,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/drown/drown_torso",
+      "name": "drown_torso",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 421,
+        "top": 716,
+        "right": 648,
+        "bottom": 1010,
+        "width": 227,
+        "height": 294
+      },
+      "position": {
+        "x": -5.5,
+        "y": 97,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0145__girl_cut__st3__drown__drown_torso.png",
+        "category": "girl",
+        "width": 227,
+        "height": 294,
+        "hash": "f0f7b5b891294eb3c8a131da828e4616fc8bec146bc7625e8e4e2e1cbaf224f7"
+      }
+    },
+    {
+      "id": 146,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_GIRL_whites",
+      "name": "ST3_GIRL_whites",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 455,
+        "top": 690,
+        "right": 511,
+        "bottom": 715,
+        "width": 56,
+        "height": 25
+      },
+      "position": {
+        "x": -57,
+        "y": 257.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0146__girl_cut__st3__st3_girl_whites.png",
+        "category": "girl",
+        "width": 56,
+        "height": 25,
+        "hash": "7f15eebeb440ce038e1d01676898abdc7fed68a8f26c7f820e91b0c12dffc851"
+      }
+    },
+    {
+      "id": 147,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_GIRL_iris",
+      "name": "ST3_GIRL_iris",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 462,
+        "top": 698,
+        "right": 507,
+        "bottom": 712,
+        "width": 45,
+        "height": 14
+      },
+      "position": {
+        "x": -55.5,
+        "y": 255,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0147__girl_cut__st3__st3_girl_iris.png",
+        "category": "girl",
+        "width": 45,
+        "height": 14,
+        "hash": "baad090e434a827189ee6559508939f419c32ec682644dc39497ab58f5f78dda"
+      }
+    },
+    {
+      "id": 148,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_GIRL_face",
+      "name": "ST3_GIRL_face",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 431,
+        "top": 623,
+        "right": 526,
+        "bottom": 756,
+        "width": 95,
+        "height": 133
+      },
+      "position": {
+        "x": -61.5,
+        "y": 270.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0148__girl_cut__st3__st3_girl_face.png",
+        "category": "girl",
+        "width": 95,
+        "height": 133,
+        "hash": "b85a584186ce518077a7c2d029348b7041e140e56110ef7a7a8c9697c1f0547d"
+      }
+    },
+    {
+      "id": 149,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_GIRL_lips",
+      "name": "ST3_GIRL_lips",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 471,
+        "top": 727,
+        "right": 502,
+        "bottom": 748,
+        "width": 31,
+        "height": 21
+      },
+      "position": {
+        "x": -53.5,
+        "y": 222.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0149__girl_cut__st3__st3_girl_lips.png",
+        "category": "girl",
+        "width": 31,
+        "height": 21,
+        "hash": "887642a89cbe30b83e0049e5a70114b7f3d9f938818409000953269c4fd9d57b"
+      }
+    },
+    {
+      "id": 150,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_GIRL_brows",
+      "name": "ST3_GIRL_brows",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 450,
+        "top": 675,
+        "right": 514,
+        "bottom": 698,
+        "width": 64,
+        "height": 23
+      },
+      "position": {
+        "x": -58,
+        "y": 273.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0150__girl_cut__st3__st3_girl_brows.png",
+        "category": "girl",
+        "width": 64,
+        "height": 23,
+        "hash": "c9a6372e32de89a88d6343ff05e8ea2491579892916650ef842842f31cf8b2b1"
+      }
+    },
+    {
+      "id": 151,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_hair_1",
+      "name": "ST3_hair_1",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 520,
+        "top": 688,
+        "right": 579,
+        "bottom": 737,
+        "width": 59,
+        "height": 49
+      },
+      "position": {
+        "x": 9.5,
+        "y": 247.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0151__girl_cut__st3__st3_hair_1.png",
+        "category": "girl",
+        "width": 59,
+        "height": 49,
+        "hash": "308984a5ffb31beaee12a9b7a43da18f749c84241efe576219f6631f18adbb0c"
+      }
+    },
+    {
+      "id": 152,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_hair_3",
+      "name": "ST3_hair_3",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 420,
+        "top": 613,
+        "right": 523,
+        "bottom": 697,
+        "width": 103,
+        "height": 84
+      },
+      "position": {
+        "x": -68.5,
+        "y": 305,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0152__girl_cut__st3__st3_hair_3.png",
+        "category": "girl",
+        "width": 103,
+        "height": 84,
+        "hash": "c81dff88e2b0ae367c257f3dcfa323431d086a1ad74cc2b91b05564c532ee264"
+      }
+    },
+    {
+      "id": 153,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_hair_4\\",
+      "name": "ST3_hair_4\\",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 491,
+        "top": 627,
+        "right": 556,
+        "bottom": 813,
+        "width": 65,
+        "height": 186
+      },
+      "position": {
+        "x": -16.5,
+        "y": 240,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0153__girl_cut__st3__st3_hair_4.png",
+        "category": "girl",
+        "width": 65,
+        "height": 186,
+        "hash": "76815259dc71e68d6e1615e51a0e48d902cc854d7810f8d98ebaf9b3bab7d65d"
+      }
+    },
+    {
+      "id": 154,
+      "type": "layer",
+      "path": "GIRL_CUT/ST3/ST3_hair_5",
+      "name": "ST3_hair_5",
+      "hidden": false,
+      "hiddenByParent": true,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 403,
+        "top": 625,
+        "right": 482,
+        "bottom": 845,
+        "width": 79,
+        "height": 220
+      },
+      "position": {
+        "x": -97.5,
+        "y": 225,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/girl/0154__girl_cut__st3__st3_hair_5.png",
+        "category": "girl",
+        "width": 79,
+        "height": 220,
+        "hash": "abdaa2f2731759195c9d02dcf8983fb9f0c3e602c60f1bfcb7b85bdbefa088a2"
+      }
+    },
+    {
+      "id": 155,
+      "type": "group",
+      "path": "water",
+      "name": "water",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 156,
+      "type": "layer",
+      "path": "water/water_feet_2",
+      "name": "water_feet_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 452,
+        "top": 1054,
+        "right": 619,
+        "bottom": 1490,
+        "width": 167,
+        "height": 436
+      },
+      "position": {
+        "x": -4.5,
+        "y": -312,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0156__water__water_feet_2.png",
+        "category": "water",
+        "width": 167,
+        "height": 436,
+        "hash": "5d89f648b81d50e0b3e6ed611f0b2bf6d6f76c30164b573af3c65748afde66c7"
+      }
+    },
+    {
+      "id": 157,
+      "type": "layer",
+      "path": "water/water_feet_1",
+      "name": "water_feet_1",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 476,
+        "top": 1056,
+        "right": 563,
+        "bottom": 1472,
+        "width": 87,
+        "height": 416
+      },
+      "position": {
+        "x": -20.5,
+        "y": -304,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0157__water__water_feet_1.png",
+        "category": "water",
+        "width": 87,
+        "height": 416,
+        "hash": "f44f0ae9b9b47a2c885a29ae566ad8281220bf8054862eccaa76d69d15dd7d2e"
+      }
+    },
+    {
+      "id": 158,
+      "type": "layer",
+      "path": "water/water_feet_3",
+      "name": "water_feet_3",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 474,
+        "top": 1056,
+        "right": 561,
+        "bottom": 1472,
+        "width": 87,
+        "height": 416
+      },
+      "position": {
+        "x": -22.5,
+        "y": -304,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0158__water__water_feet_3.png",
+        "category": "water",
+        "width": 87,
+        "height": 416,
+        "hash": "c7a4ddbce8d36b80f9e003527e594668286a4d1d8540b9b605d53875cffd391d"
+      }
+    },
+    {
+      "id": 159,
+      "type": "layer",
+      "path": "water/water_cicle_1",
+      "name": "water_cicle_1",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 272,
+        "top": 1218,
+        "right": 731,
+        "bottom": 1405,
+        "width": 459,
+        "height": 187
+      },
+      "position": {
+        "x": -38.5,
+        "y": -351.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0159__water__water_cicle_1.png",
+        "category": "water",
+        "width": 459,
+        "height": 187,
+        "hash": "5d37dc53e5d51e97a1f43635a4a2d6c039e42d6936060c5115b6d94f8c4ca63b"
+      }
+    },
+    {
+      "id": 160,
+      "type": "layer",
+      "path": "water/water_cicles_small_2",
+      "name": "water_cicles_small_2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 528,
+        "top": 1200,
+        "right": 782,
+        "bottom": 1274,
+        "width": 254,
+        "height": 74
+      },
+      "position": {
+        "x": 115,
+        "y": -277,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0160__water__water_cicles_small_2.png",
+        "category": "water",
+        "width": 254,
+        "height": 74,
+        "hash": "5d2d09e10f9bc4d192d52bcde478194d5cbfb7c0c9549d9e086cf6e58332f7ee"
+      }
+    },
+    {
+      "id": 161,
+      "type": "layer",
+      "path": "water/water_cicle_SMALL",
+      "name": "water_cicle_SMALL",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 406,
+        "top": 1244,
+        "right": 696,
+        "bottom": 1340,
+        "width": 290,
+        "height": 96
+      },
+      "position": {
+        "x": 11,
+        "y": -332,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0161__water__water_cicle_small.png",
+        "category": "water",
+        "width": 290,
+        "height": 96,
+        "hash": "480b7e6358d62684b64989b3ae293834bc5e5e6031c41948025d781c60849184"
+      }
+    },
+    {
+      "id": 162,
+      "type": "layer",
+      "path": "water/water_cicles_4",
+      "name": "water_cicles_4",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 192,
+        "top": 709,
+        "right": 832,
+        "bottom": 917,
+        "width": 640,
+        "height": 208
+      },
+      "position": {
+        "x": -28,
+        "y": 147,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0162__water__water_cicles_4.png",
+        "category": "water",
+        "width": 640,
+        "height": 208,
+        "hash": "edb78e5f32c41b4b8db31b672c322257a3b26c81d257084ed1a71422f2f4a020"
+      }
+    },
+    {
+      "id": 163,
+      "type": "layer",
+      "path": "water/jet_2",
+      "name": "jet_2",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 628,
+        "top": 1076,
+        "right": 896,
+        "bottom": 1195,
+        "width": 268,
+        "height": 119
+      },
+      "position": {
+        "x": 222,
+        "y": -175.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/water/0163__water__jet_2.png",
+        "category": "water",
+        "width": 268,
+        "height": 119,
+        "hash": "f8f4403f0545bd83a65c35fb5a213841ea9d6a274c905c08c4a73d757a3d4e50"
+      }
+    },
+    {
+      "id": 164,
+      "type": "layer",
+      "path": "tube_2",
+      "name": "tube_2",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 909,
+        "top": 116,
+        "right": 1007,
+        "bottom": 202,
+        "width": 98,
+        "height": 86
+      },
+      "position": {
+        "x": 418,
+        "y": 801,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/props/0164__tube_2.png",
+        "category": "props",
+        "width": 98,
+        "height": 86,
+        "hash": "51acc1b26dbb61800273f8006dddddafeb9a4dec5e43aecf2efda39f4b7c2b1d"
+      }
+    },
+    {
+      "id": 165,
+      "type": "group",
+      "path": "key_icon",
+      "name": "key_icon",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 166,
+      "type": "layer",
+      "path": "key_icon/key_icon",
+      "name": "key_icon",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 63,
+        "top": 248,
+        "right": 321,
+        "bottom": 401,
+        "width": 258,
+        "height": 153
+      },
+      "position": {
+        "x": -348,
+        "y": 635.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0166__key_icon__key_icon.png",
+        "category": "ui",
+        "width": 258,
+        "height": 153,
+        "hash": "e95190e8311a9eb093eb0035320dd56396a5f727cc83b5f9f11afb132cec36da"
+      }
+    },
+    {
+      "id": 167,
+      "type": "layer",
+      "path": "key_icon/5/5",
+      "name": "5/5",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 218,
+        "top": 303,
+        "right": 284,
+        "bottom": 339,
+        "width": 66,
+        "height": 36
+      },
+      "position": {
+        "x": -289,
+        "y": 639,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0167__key_icon__5_5.png",
+        "category": "ui",
+        "width": 66,
+        "height": 36,
+        "hash": "3dcae0e6239ce8871002c346f3699c446967068fcefc2d85b9a12e4ce19ba65e"
+      }
+    },
+    {
+      "id": 168,
+      "type": "layer",
+      "path": "key_icon/4/5",
+      "name": "4/5",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 217,
+        "top": 303,
+        "right": 284,
+        "bottom": 339,
+        "width": 67,
+        "height": 36
+      },
+      "position": {
+        "x": -289.5,
+        "y": 639,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0168__key_icon__4_5.png",
+        "category": "ui",
+        "width": 67,
+        "height": 36,
+        "hash": "e590c699c5d24ad144dc6b4734ff387f7ad22da006ea192af150358d843af0cb"
+      }
+    },
+    {
+      "id": 169,
+      "type": "layer",
+      "path": "key_icon/3/5",
+      "name": "3/5",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 217,
+        "top": 303,
+        "right": 284,
+        "bottom": 339,
+        "width": 67,
+        "height": 36
+      },
+      "position": {
+        "x": -289.5,
+        "y": 639,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0169__key_icon__3_5.png",
+        "category": "ui",
+        "width": 67,
+        "height": 36,
+        "hash": "3110cf751811e87f7e23f78ac025f6c289cd760b26e41c81d93f7117ab73f8ce"
+      }
+    },
+    {
+      "id": 170,
+      "type": "layer",
+      "path": "key_icon/2/5",
+      "name": "2/5",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 217,
+        "top": 303,
+        "right": 284,
+        "bottom": 339,
+        "width": 67,
+        "height": 36
+      },
+      "position": {
+        "x": -289.5,
+        "y": 639,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0170__key_icon__2_5.png",
+        "category": "ui",
+        "width": 67,
+        "height": 36,
+        "hash": "4cb2628a222fa3bb7936a4b547216ea3acdb8be116ec6373348cfbaaabc75be4"
+      }
+    },
+    {
+      "id": 171,
+      "type": "layer",
+      "path": "key_icon/1/5",
+      "name": "1/5",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 219,
+        "top": 303,
+        "right": 284,
+        "bottom": 339,
+        "width": 65,
+        "height": 36
+      },
+      "position": {
+        "x": -288.5,
+        "y": 639,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0171__key_icon__1_5.png",
+        "category": "ui",
+        "width": 65,
+        "height": 36,
+        "hash": "a0e19f1d9173846d4aa0afd18bb3b21e4b5bf115ec276a71ee493734dda0ed60"
+      }
+    },
+    {
+      "id": 172,
+      "type": "layer",
+      "path": "key_icon/0/5",
+      "name": "0/5",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 218,
+        "top": 302,
+        "right": 284,
+        "bottom": 339,
+        "width": 66,
+        "height": 37
+      },
+      "position": {
+        "x": -289,
+        "y": 639.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0172__key_icon__0_5.png",
+        "category": "ui",
+        "width": 66,
+        "height": 37,
+        "hash": "9f47c8710f10c53b792ab8adb545fdcf6dd67fd7f1b72e6161c220e81d5a1ed0"
+      }
+    },
+    {
+      "id": 173,
+      "type": "group",
+      "path": "text",
+      "name": "text",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "position": {
+        "x": -540,
+        "y": 960,
+        "z": 0
+      },
+      "sprite": null
+    },
+    {
+      "id": 174,
+      "type": "layer",
+      "path": "text/shade_up",
+      "name": "shade_up",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -100,
+        "top": 0,
+        "right": 1358,
+        "bottom": 376,
+        "width": 1458,
+        "height": 376
+      },
+      "position": {
+        "x": 89,
+        "y": 772,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0174__text__shade_up.png",
+        "category": "ui",
+        "width": 1458,
+        "height": 376,
+        "hash": "f7d7479484d6b1b8a2c1d3da6b4d3953e04e869790f2b1123c34cd4e1ced680a"
+      }
+    },
+    {
+      "id": 175,
+      "type": "layer",
+      "path": "text/shade_bot",
+      "name": "shade_bot",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": -337,
+        "top": 1501,
+        "right": 1564,
+        "bottom": 2023,
+        "width": 1901,
+        "height": 522
+      },
+      "position": {
+        "x": 73.5,
+        "y": -802,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0175__text__shade_bot.png",
+        "category": "ui",
+        "width": 1901,
+        "height": 522,
+        "hash": "6e1a9b5763de45dad7567f8cb9c872803a77d4308c3c005e9b66c6317fc0b810"
+      }
+    },
+    {
+      "id": 176,
+      "type": "layer",
+      "path": "text/Break down the door!",
+      "name": "Break down the door!",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 94,
+        "top": 104,
+        "right": 998,
+        "bottom": 181,
+        "width": 904,
+        "height": 77
+      },
+      "position": {
+        "x": 6,
+        "y": 817.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0176__text__break_down_the_door.png",
+        "category": "ui",
+        "width": 904,
+        "height": 77,
+        "hash": "33abbc769dbca6c548d3e622d11c10789dc75cd6baf0326fb0078ed3e64b2ca8"
+      }
+    },
+    {
+      "id": 177,
+      "type": "layer",
+      "path": "text/Open the door!",
+      "name": "Open the door!",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 215,
+        "top": 103,
+        "right": 872,
+        "bottom": 201,
+        "width": 657,
+        "height": 98
+      },
+      "position": {
+        "x": 3.5,
+        "y": 808,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0177__text__open_the_door.png",
+        "category": "ui",
+        "width": 657,
+        "height": 98,
+        "hash": "e59810ddef45c0ad06e994681c4524e70223e19f63d74c9c2a8dfd0c57f283e8"
+      }
+    },
+    {
+      "id": 178,
+      "type": "layer",
+      "path": "text/Help her escape копия",
+      "name": "Help her escape копия",
+      "hidden": true,
+      "hiddenByParent": false,
+      "effectiveHidden": true,
+      "bounds": {
+        "left": 81,
+        "top": 57,
+        "right": 1014,
+        "bottom": 192,
+        "width": 933,
+        "height": 135
+      },
+      "position": {
+        "x": 7.5,
+        "y": 835.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0178__text__help_her_escape_копия.png",
+        "category": "ui",
+        "width": 933,
+        "height": 135,
+        "hash": "0169b5b78750ed669b3e903577e49e345c4d0cc6e151b93f593ce07ecfb76602"
+      }
+    },
+    {
+      "id": 179,
+      "type": "layer",
+      "path": "button",
+      "name": "button",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 313,
+        "top": 1547,
+        "right": 769,
+        "bottom": 1706,
+        "width": 456,
+        "height": 159
+      },
+      "position": {
+        "x": 1,
+        "y": -666.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0179__button.png",
+        "category": "ui",
+        "width": 456,
+        "height": 159,
+        "hash": "df8f881f509c612bd69aee822076a0032030af604d644567d5f9685a0416540a"
+      }
+    },
+    {
+      "id": 180,
+      "type": "layer",
+      "path": "hand_cursor",
+      "name": "hand_cursor",
+      "hidden": false,
+      "hiddenByParent": false,
+      "effectiveHidden": false,
+      "bounds": {
+        "left": 607,
+        "top": 529,
+        "right": 740,
+        "bottom": 680,
+        "width": 133,
+        "height": 151
+      },
+      "position": {
+        "x": 133.5,
+        "y": 355.5,
+        "z": 0
+      },
+      "sprite": {
+        "file": "sprites/ui/0180__hand_cursor.png",
+        "category": "ui",
+        "width": 133,
+        "height": 151,
+        "hash": "9ad15e67a48ca7c15ddfa1d0e20dc85be1be79e0c6552b15ff1bd294bceaec0b"
+      }
+    }
+  ]
+}

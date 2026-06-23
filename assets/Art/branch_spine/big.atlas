@@ -1,0 +1,115 @@
+Project_017.png
+	size: 1024, 1024
+	filter: Linear, Linear
+chair
+	bounds: 278, 570, 257, 322
+chair_leg_front
+	bounds: 0, 604, 53, 288
+door
+	bounds: 55, 374, 221, 518
+girl_arm_back
+	bounds: 210, 204, 93, 270
+	offsets: 0, 0, 94, 270
+	rotate: 90
+girl_arm_front
+	bounds: 744, 196, 192, 280
+	offsets: 1, 0, 193, 280
+	rotate: 90
+girl_body
+	bounds: 792, 549, 229, 343
+	rotate: 180
+girl_eye_close1
+	bounds: 976, 870, 34, 22
+	offsets: 1, 3, 38, 30
+girl_eye_close2
+	bounds: 895, 871, 24, 21
+	offsets: 2, 3, 28, 29
+girl_eye_white1
+	bounds: 864, 871, 29, 21
+girl_face1
+	bounds: 0, 223, 130, 152
+	offsets: 3, 2, 137, 155
+girl_hair1
+	bounds: 684, 269, 60, 138
+	offsets: 0, 2, 62, 140
+	rotate: 90
+girl_hair2
+	bounds: 504, 185, 84, 235
+	offsets: 1, 0, 87, 235
+	rotate: 90
+girl_hair3
+	bounds: 409, 130, 114, 170
+	offsets: 0, 0, 114, 172
+	rotate: 270
+girl_hand_back
+	bounds: 0, 532, 41, 70
+	offsets: 1, 1, 43, 73
+girl_hand_front
+	bounds: 740, 20, 60, 72
+	rotate: 90
+girl_leg_back
+	bounds: 240, 272, 140, 367
+	offsets: 0, 0, 141, 367
+	rotate: 90
+girl_leg_front
+	bounds: 617, 264, 292, 407
+	rotate: 270
+girl_mouth_back
+	bounds: 827, 871, 35, 21
+girl_pupil1
+	bounds: 827, 852, 18, 17
+hands2
+	bounds: 379, 17, 60, 80
+hands3
+	bounds: 558, 17, 65, 82
+	rotate: 90
+key1
+	bounds: 257, 55, 120, 60
+key1_shadow
+	bounds: 88, 40, 120, 58
+key4
+	bounds: 642, 3, 61, 70
+	rotate: 90
+key5
+	bounds: 794, 807, 31, 85
+key_fly
+	bounds: 900, 554, 124, 63
+	offsets: 1, 0, 126, 64
+light
+	bounds: 537, 402, 233, 233
+lock1
+	bounds: 739, 33, 285, 93
+	rotate: 180
+lock1_add
+	bounds: 453, 59, 285, 93
+lock1_broken
+	bounds: 416, 387, 62, 98
+	rotate: 90
+lock2
+	bounds: 187, 92, 291, 98
+lock2_add
+	bounds: 633, 104, 291, 98
+particles/li_stal1_1
+	bounds: 492, 0, 64, 64
+particles/light
+	bounds: 416, 451, 117, 117
+particles/particle1_1
+	bounds: 1003, 851, 21, 21
+particles/particle2_1
+	bounds: 0, 135, 87, 87
+particles/particle3_1
+	bounds: 926, 129, 98, 96
+particles/ring1_1
+	bounds: 537, 637, 255, 255
+particles/ring2_1
+	bounds: 0, 47, 86, 86
+particles/ring_blur1_1
+	bounds: 772, 419, 128, 128
+particles/star1_1
+	bounds: 96, 127, 112, 112
+particles/star2_1
+	bounds: 277, 436, 137, 132
+particles/star3_1
+	bounds: 955, 19, 69, 67
+particles/star4_1
+	bounds: 130, 272, 100, 100
