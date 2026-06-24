@@ -1,5 +1,6 @@
-import { _decorator, CCInteger, Component } from 'cc';
+import { _decorator, CCInteger, Component, input, Input } from 'cc';
 import super_html_playable from './super_html_playable';
+import { PlayableEvents } from 'db://assets/Scripts/PlayableEvents';
 
 const { ccclass, property } = _decorator;
 
@@ -18,32 +19,22 @@ export class UI_GameDownloadInputClicks extends Component
     })
     clicksToDownload: number = 1;
 
-    private static readonly _instances: Set<UI_GameDownloadInputClicks> = new Set();
-
     private _clicks: number = 0;
 
-    public static registerInputClick(): void {
-        this._instances.forEach((instance) => instance.countInputClick());
-    }
-
-    public static getActiveClicksLimit(): number {
-        const firstInstance = this._instances.values().next().value as UI_GameDownloadInputClicks | undefined;
-        return window.CLICKS_TO_DOWNLOAD ?? firstInstance?.clicksToDownload ?? 1;
-    }
 
     private get clicksLimit(): number {
-        return UI_GameDownloadInputClicks.getActiveClicksLimit();
+        return window.CLICKS_TO_DOWNLOAD ?? this.clicksToDownload;
     }
 
     protected onEnable(): void {
-        UI_GameDownloadInputClicks._instances.add(this);
+        input.on(Input.EventType.TOUCH_END, this.onInputClick, this);
     }
 
     protected onDisable(): void {
-        UI_GameDownloadInputClicks._instances.delete(this);
+        input.off(Input.EventType.TOUCH_END, this.onInputClick, this);
     }
 
-    private countInputClick(): void {
+    private onInputClick(): void {
         const clicksToDownload = this.clicksLimit;
         if (clicksToDownload < 1) return;
 

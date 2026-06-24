@@ -18,6 +18,7 @@ import {
     UITransform,
     Vec3,
     view,
+    CCBoolean,
 } from 'cc';
 import { AnalyticsManager } from './AnalyticsManager';
 import { GameAudioManager } from './GameAudioManager';
@@ -62,18 +63,15 @@ const RANDOM_KEY_SHINE_MAX_LOOPS = 3;
 const RANDOM_KEY_SHINE_MIN_GAP = 0.25;
 const RANDOM_KEY_SHINE_MAX_GAP = 0.55;
 
-@ccclass('KeySetup')
-class KeySetup {
-    @property(Node) key: Node | null = null;
+@ccclass('LockSetup')
+class LockSetup {
+    @property(Node) lock: Node | null = null;
     @property(Node) targetPoint: Node | null = null;
-    @property(Node) chain: Node | null = null;
 }
 
 type KeyEntry = {
     id: number;
     key: Node;
-    targetPoint: Node;
-    chain: Node;
     collected: boolean;
     animating: boolean;
 };
@@ -102,8 +100,11 @@ type TextLikeComponent = Component & { string: string };
 
 @ccclass('GameManager')
 export class GameManager extends Component {
-    @property({ type: [KeySetup], tooltip: 'Explicit key setup entries. Wire every key, target point, and chain node in the scene/prefab inspector.' })
-    public keySetups: KeySetup[] = [];
+    @property({ type: [Node], tooltip: 'Explicit key setup entries. Wire every key, target point, and chain node in the scene/prefab inspector.' })
+    public keySetups: Node[] = [];
+    @property([LockSetup]) public chains: LockSetup[] = [];
+    @property(CCBoolean) public unlockFromBottom: boolean = false;
+    
     @property(Node) keysRoot: Node | null = null;
     @property(Node) doorRoot: Node | null = null;
     @property(Node) girlRoot: Node | null = null;
@@ -186,6 +187,8 @@ export class GameManager extends Component {
     private shiningKeyEntry: KeyEntry | null = null;
     private keyCounterBaseScale = new Vec3(1, 1, 1);
     private keyCounterBasePosition = new Vec3();
+
+    private targetLockID: number = -1;
 
     protected onLoad(): void {
         this.discoverSceneData();
@@ -316,26 +319,17 @@ export class GameManager extends Component {
 
     private discoverSceneData(): void {
         this.entries = [];
-        const setups = Array.isArray(this.keySetups) ? this.keySetups : [];
-        for (let index = 0; index < setups.length; index += 1) {
-            const setup = setups[index];
-            if (!setup?.key || !setup.targetPoint || !setup.chain || !this.isNodeUnder(setup.targetPoint, setup.chain)) continue;
+        const keys = Array.isArray(this.keySetups) ? this.keySetups : [];
+        for (let index = 0; index < keys.length; index += 1) {
+            const key = keys[index];
+            if (!key) continue;
             this.entries.push({
                 id: index + 1,
-                key: setup.key,
-                targetPoint: setup.targetPoint,
-                chain: setup.chain,
+                key: key,
                 collected: false,
                 animating: false,
             });
         }
-    }
-
-    private isNodeUnder(node: Node, root: Node): boolean {
-        for (let current: Node | null = node; current; current = current.parent) {
-            if (current === root) return true;
-        }
-        return false;
     }
 
     private validateRequiredData(): void {
@@ -370,21 +364,10 @@ export class GameManager extends Component {
 
             button.interactable = true;
             button.target = key;
-            key.off(Button.EventType.CLICK);
-            key.on(Button.EventType.CLICK, () => this.onKeyObjectClick(entry), this);
             key.off(Node.EventType.TOUCH_START);
             key.on(Node.EventType.TOUCH_START, (event: EventTouch) => this.onKeyObjectTouchStart(entry, event), this, true);
             this.clickTargetToEntry.set(key, entry);
         }
-    }
-
-    private onKeyObjectClick(entry: KeyEntry): void {
-        if (this.fullScreenDownloadActive) {
-            this.downloadOnce();
-            return;
-        }
-        if (this.terminal !== 'none' || entry.collected) return;
-        this.collectKey(entry);
     }
 
     private onKeyObjectTouchStart(entry: KeyEntry, event: EventTouch): void {
@@ -465,18 +448,22 @@ export class GameManager extends Component {
     private finishKeyTap(entry: KeyEntry): void {
         this.activeUnlockAnimations += 1;
         const key = entry.key;
+        
+        this.targetLockID += 1
+        var id = this.unlockFromBottom ? this.chains.length - 1 - this.targetLockID : this.targetLockID;
+        const chain = this.chains[id];
+        
         Tween.stopAllByTarget(key);
-        this.flyKeyToLock(entry, () => {
+        this.flyKeyToLock(entry, chain, () => {
             this.audioManager?.playKeyTurn();
             this.audioManager?.playUnlock();
-            this.animateAssignedChain(entry);
+            this.animateAssignedChain(entry, id);
         });
     }
 
-    private flyKeyToLock(entry: KeyEntry, onArrive: () => void): void {
+    private flyKeyToLock(entry: KeyEntry, chain: LockSetup, onArrive: () => void): void {
         const key = entry.key;
-        const chain = entry.chain;
-        const targetPoint = entry.targetPoint;
+        const targetPoint = chain.targetPoint;
         const keyParent = key.parent;
         if (!keyParent) {
             key.active = false;
@@ -497,25 +484,27 @@ export class GameManager extends Component {
             .to(KEY_TURN_SECONDS, { scale: new Vec3(0, flyScale.y, flyScale.z) }, { easing: 'quadIn' })
             .call(() => {
                 key.active = false;
-                this.jumpScale(chain, LOCK_JUMP_SCALE, 0.18);
+                this.jumpScale(chain.lock, LOCK_JUMP_SCALE, 0.18);
                 onArrive();
             })
             .start();
     }
 
-    private animateAssignedChain(entry: KeyEntry): void {
+    private animateAssignedChain(entry: KeyEntry, lockID: number): void {
         this.showCollectedKeyInCounter();
-        const chain = entry.chain;
+
+        const chain = this.chains[lockID];
         this.audioManager?.playChains();
 
-        const pos = chain.position.clone();
-        tween(chain)
+        const lock = chain.lock;
+        const pos = lock.position.clone();
+        tween(lock)
             .delay(Math.random() * 0.08)
-            .to(0.45, { position: new Vec3(pos.x, pos.y - 90, pos.z), angle: chain.angle + (Math.random() > 0.5 ? 10 : -10) }, { easing: 'quadIn' })
-            .call(() => this.fadeOutNode(chain, 0.2))
+            .to(0.45, { position: new Vec3(pos.x, pos.y - 90, pos.z), angle: lock.angle + (Math.random() > 0.5 ? 10 : -10) }, { easing: 'quadIn' })
+            .call(() => this.fadeOutNode(lock, 0.2))
             .delay(0.22)
             .call(() => {
-                chain.active = false;
+                lock.active = false;
                 this.finishUnlockAnimation(entry);
             })
             .start();

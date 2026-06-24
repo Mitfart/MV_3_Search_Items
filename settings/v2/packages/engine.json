@@ -12,7 +12,7 @@
             "_value": true
           },
           "gfx-webgl2": {
-            "_value": false
+            "_value": true
           },
           "gfx-webgpu": {
             "_value": false
@@ -200,6 +200,7 @@
           "base",
           "custom-pipeline",
           "gfx-webgl",
+          "gfx-webgl2",
           "graphics",
           "mask",
           "particle-2d",
