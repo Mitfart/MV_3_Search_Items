@@ -1,6 +1,5 @@
-import { _decorator, CCInteger, Component, input, Input } from 'cc';
-import super_html_playable from './super_html_playable';
-import { PlayableEvents } from 'db://assets/Scripts/PlayableEvents';
+import { _decorator, Node, CCInteger, Component, input, Input } from 'cc';
+import { UI_GameDownloadBtn } from './UI_GameDownloadBtn';
 
 const { ccclass, property } = _decorator;
 
@@ -19,28 +18,30 @@ export class UI_GameDownloadInputClicks extends Component
     })
     clicksToDownload: number = 1;
 
+    @property(UI_GameDownloadBtn)
+    downloadButton: UI_GameDownloadBtn | null = null;
+
     private _clicks: number = 0;
 
-
-    private get clicksLimit(): number {
+    public get clicksLimit(): number {
         return window.CLICKS_TO_DOWNLOAD ?? this.clicksToDownload;
     }
+    
 
-    protected onEnable(): void {
-        input.on(Input.EventType.TOUCH_END, this.onInputClick, this);
+    public init(): void {
+        this.updateState();
+        
     }
 
-    protected onDisable(): void {
-        input.off(Input.EventType.TOUCH_END, this.onInputClick, this);
-    }
-
-    private onInputClick(): void {
-        const clicksToDownload = this.clicksLimit;
-        if (clicksToDownload < 1) return;
-
+    public registerInteraction(): void {
         this._clicks++;
-        if (this._clicks < clicksToDownload) return;
+        this.updateState();
+    }
 
-        super_html_playable.download();
+
+    private updateState(): void {
+        this.downloadButton.node.active = this.clicksLimit <= 0 
+            ? false 
+            : this._clicks >= this.clicksLimit - 1;
     }
 }

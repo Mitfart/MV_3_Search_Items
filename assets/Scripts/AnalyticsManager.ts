@@ -2,35 +2,39 @@ import { _decorator, Component } from 'cc';
 
 const { ccclass } = _decorator;
 
+type PlayableWindow = Window & {
+    ALPlayableAnalytics?: {
+        trackEvent?: (eventName: string) => void;
+    };
+    gameEnd?: () => void;
+};
+
 @ccclass('AnalyticsManager')
 export class AnalyticsManager extends Component {
-    private static isGameEndFired = false;
-    private static isChallengeStartedFired = false;
+    private static readonly emittedEvents = new Set<string>();
 
     public static trackEvent(eventName: string): void {
-        if (typeof window !== 'undefined' && typeof window['ALPlayableAnalytics'] !== 'undefined') {
-            window['ALPlayableAnalytics'].trackEvent(eventName);
-            console.log(`[Analytics] Event sent: ${eventName}`);
-        } else {
-            console.log(`[Analytics] Event triggered (not sent): ${eventName}`);
-        }
-    }
-
-    public static fireGameEnd(): void {
-        if (this.isGameEndFired) return;
-
-        if (typeof window !== 'undefined' && typeof window['gameEnd'] === 'function') {
-            window['gameEnd']();
-            this.isGameEndFired = true;
-            console.log('[Mintegral] window.gameEnd() successfully called.');
-        }
+        this.emit(eventName);
     }
 
     public static fireChallengeStarted(): void {
-        if (this.isChallengeStartedFired) return;
+        this.emit('CHALLENGE_STARTED');
+    }
 
-        this.isChallengeStartedFired = true;
-        this.trackEvent('CHALLENGE_STARTED');
-        console.log('[Analytics] CHALLENGE_STARTED fired');
+    private static emit(eventName: string): void {
+        if (eventName != 'CTA_CLICKED') {
+            if (this.emittedEvents.has(eventName)) {
+                return;
+            }
+            this.emittedEvents.add(eventName);
+        }
+
+        const playable = window as PlayableWindow;
+        if (typeof playable.ALPlayableAnalytics?.trackEvent === 'function') {
+            playable.ALPlayableAnalytics.trackEvent(eventName);
+        } else if (typeof playable.dispatchEvent === 'function' && typeof CustomEvent !== 'undefined') {
+            playable.dispatchEvent(new CustomEvent(eventName));
+            console.log(`[Analytics] ${eventName}`);
+        }
     }
 }

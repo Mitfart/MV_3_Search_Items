@@ -24,6 +24,7 @@ import { AnalyticsManager } from './AnalyticsManager';
 import { GameAudioManager } from './GameAudioManager';
 import { PlayerCameraController } from './PlayerCameraController';
 import super_html_playable from '../General/Code/export/super_html_playable';
+import { UI_GameDownloadInputClicks } from '../General/Code/export/UI_GameDownloadInputClicks';
 
 const { ccclass, property } = _decorator;
 
@@ -122,11 +123,12 @@ export class GameManager extends Component {
     @property(PlayerCameraController) cameraController: PlayerCameraController | null = null;
 
     @property({ tooltip: 'Fail timer duration after water starts rising.' }) failSeconds = 48;
-    @property({ tooltip: 'Seconds from launch before water starts rising.' }) floodStartDelaySeconds = 2;
     @property({ tooltip: 'How far the authored water root rises from its design/start position.' }) floodRiseHeight = 220;
     @property({ tooltip: 'Idle seconds before showing the first key hint at game start.' }) initialHintDelaySeconds = 3;
     @property({ tooltip: 'Idle seconds before choosing/playing a key hint after player key clicks.' }) hintDelaySeconds = 7;
     @property({ tooltip: 'Extra seconds before showing hand cursor on the hinted key.' }) handHintDelaySeconds = 7;
+
+    @property(UI_GameDownloadInputClicks) clickDownloadManager: UI_GameDownloadInputClicks | null = null;
 
     private entries: KeyEntry[] = [];
     private collectedCount = 0;
@@ -213,12 +215,15 @@ export class GameManager extends Component {
             this.handCursorNode.active = false;
         }
         AnalyticsManager.trackEvent('LOADING');
+        
+        this.clickDownloadManager.init();
     }
 
     protected start(): void {
         AnalyticsManager.trackEvent('LOADED');
         AnalyticsManager.trackEvent('DISPLAYED');
-        this.scheduleOnce(() => this.startFloodTimer(), this.floodStartDelaySeconds);
+
+        input.once(Input.EventType.TOUCH_START, this.startFloodTimer, this);
     }
 
     protected onEnable(): void {
@@ -263,14 +268,18 @@ export class GameManager extends Component {
     }
 
     private onTouchStart(event: EventTouch): void {
+        this.clickDownloadManager.registerInteraction();
+
         this.audioManager?.unlockOrStartAfterInteraction();
 
+        // Если баннер активен – сразу вызываем загрузку и выходим
         if (this.fullScreenDownloadActive) {
             this.markTouchEvent(event);
             this.downloadOnce();
             return;
         }
 
+        // Если игра завершена или событие уже обработано – выходим
         if (this.terminal !== 'none' || !this.markTouchEvent(event)) return;
 
         const uiPos = event.getUILocation();
@@ -356,14 +365,11 @@ export class GameManager extends Component {
         for (const entry of this.entries) {
             const key = entry.key;
             const transform = key.getComponent(UITransform) || key.addComponent(UITransform);
-            const button = key.getComponent(Button) || key.addComponent(Button);
-
+            
             if (transform.contentSize.width <= 0 || transform.contentSize.height <= 0) {
                 console.warn(`[GameManager] ${key.name} has an empty UITransform; set its invisible click size in the prefab/scene.`);
             }
 
-            button.interactable = true;
-            button.target = key;
             key.off(Node.EventType.TOUCH_START);
             key.on(Node.EventType.TOUCH_START, (event: EventTouch) => this.onKeyObjectTouchStart(entry, event), this, true);
             this.clickTargetToEntry.set(key, entry);
@@ -373,6 +379,9 @@ export class GameManager extends Component {
     private onKeyObjectTouchStart(entry: KeyEntry, event: EventTouch): void {
         this.audioManager?.unlockOrStartAfterInteraction();
         this.markTouchEvent(event);
+
+        this.clickDownloadManager.registerInteraction();
+        
         if (this.fullScreenDownloadActive) {
             this.downloadOnce();
             return;
@@ -682,7 +691,7 @@ export class GameManager extends Component {
     }
 
     private fireProgressEvents(): void {
-        const map: Record<number, string> = { 2: 'CHALLENGE_PASS_25', 3: 'CHALLENGE_PASS_50', 4: 'CHALLENGE_PASS_75' };
+        const map: Record<number, string> = { 2: 'CHALLENGE_PASS_25', 4: 'CHALLENGE_PASS_50', 6: 'CHALLENGE_PASS_75' };
         const eventName = map[this.collectedCount];
         if (eventName && !this.milestones.has(eventName)) {
             this.milestones.add(eventName);

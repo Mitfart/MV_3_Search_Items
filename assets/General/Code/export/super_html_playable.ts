@@ -1,4 +1,5 @@
 import { error, log, sys } from "cc";
+import { AnalyticsManager } from "db://assets/Scripts/AnalyticsManager";
 
 declare global {
     interface Window {
@@ -47,6 +48,9 @@ export class super_html_playable {
             log("download_blocked_cooldown");
             return;
         }
+
+        AnalyticsManager.trackEvent("CTA_CLICKED");
+
         this._lastDownloadTs = now;
         this._downloadInProgress = true;
         this.bindReturnListeners();
