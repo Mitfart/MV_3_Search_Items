@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "entries": {
+    "topology/peer-seq": {
+      "key": "topology/peer-seq",
+      "value": {
+        "format": 1,
+        "next": 1
+      },
+      "version": 1,
+      "updatedAt": 1787728573777,
+      "updatedBy": {
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23"
+      }
+    },
+    "topology/hosts/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8": {
+      "key": "topology/hosts/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8",
+      "value": {
+        "format": 1,
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "rootId": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "identity": {
+          "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+          "name": "main",
+          "kind": "main",
+          "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23"
+        },
+        "startedAt": 1787728573757,
+        "updatedAt": 1787738825691,
+        "expiresAt": 1787738840691
+      },
+      "version": 2071,
+      "updatedAt": 1787738825713,
+      "updatedBy": {
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23"
+      }
+    },
+    "sessions/01a03ceb-8fd7-7dc8-9414-424d1ee3ba23": {
+      "key": "sessions/01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+      "value": {
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "M3SI-1",
+        "label": "M3SI-1",
+        "kind": "peer",
+        "status": "idle",
+        "runner": "pi",
+        "transport": "host",
+        "cwd": "D:\\Work\\Cocos\\MV_3_Search_Items",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "model": "openai-codex/gpt-5.6-terra",
+        "thinking": "medium",
+        "startedAt": 1787728573745,
+        "updatedAt": 1787738825691,
+        "pendingMessages": false,
+        "local": false
+      },
+      "version": 2071,
+      "updatedAt": 1787738825734,
+      "updatedBy": {
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23"
+      }
+    },
+    "topology/participants/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8": {
+      "key": "topology/participants/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8",
+      "value": {
+        "format": 1,
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "kind": "root",
+        "rootId": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "ownerHostId": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "ownerIdentityId": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "main",
+        "status": "idle",
+        "runner": "pi",
+        "transport": "host",
+        "capabilities": [
+          "steer",
+          "followUp",
+          "fabric"
+        ],
+        "cwd": "D:\\Work\\Cocos\\MV_3_Search_Items",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "model": "openai-codex/gpt-5.6-terra",
+        "thinking": "medium",
+        "startedAt": 1787728573745,
+        "updatedAt": 1787738825691,
+        "pendingMessages": false,
+        "controlProtocol": "v1",
+        "label": "M3SI-1"
+      },
+      "version": 2071,
+      "updatedAt": 1787738825759,
+      "updatedBy": {
+        "id": "session:01a03ceb-8fd7-7dc8-9414-424d1ee3ba23",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a03ceb-8fd7-7dc8-9414-424d1ee3ba23"
+      }
+    }
+  },
+  "versions": {
+    "topology/peer-seq": 1,
+    "topology/hosts/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8": 2071,
+    "sessions/01a03ceb-8fd7-7dc8-9414-424d1ee3ba23": 2071,
+    "topology/participants/782181c925bd885c938edd364e78f0d4c39af273d3d166c27e59d0da8ee195d8": 2071
+  },
+  "tombstoneOrder": []
+}

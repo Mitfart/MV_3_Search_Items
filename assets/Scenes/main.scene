@@ -4690,7 +4690,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "clicksToDownload": 2,
+    "clicksToDownload": -1,
     "downloadButton": {
       "__id__": 103
     },
